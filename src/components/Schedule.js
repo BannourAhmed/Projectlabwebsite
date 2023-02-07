@@ -98,7 +98,7 @@ laboratory.</p></ShowMoreText>
                         }
                       </Row> */}
                       
-                      <p>All project proposals are posted on the course page:</p> <a  href="projectlab.math.bme.hu"><p>projectlab.math.bme.hu</p></a>
+                      <p>All project proposals are posted on the course page:</p> <a  href="https://projectlab.math.bme.hu"><p>projectlab.math.bme.hu</p></a>
                       
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
