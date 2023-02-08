@@ -57,7 +57,7 @@ export const Banner3 = () => {
 
 
   return (
-    <section className="banner" id="Available">
+    <section className="banner3" id="Available">
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>

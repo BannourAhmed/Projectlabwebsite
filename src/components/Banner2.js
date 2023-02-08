@@ -94,7 +94,7 @@ export const Banner2 = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                <span className="tagline">SCIENTIFIC WRITING</span>
+                <span className="tagline">WRITING TIPS</span>
                 
                 <ShowMoreText>
                  

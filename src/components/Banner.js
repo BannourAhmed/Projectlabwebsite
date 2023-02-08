@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
+import headertext from "../assets/img/header-text-image.png";
+
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -64,9 +66,10 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated " : ""}>
+                                <h1>{`Project Laboratory`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "information", "description", "objectives" ]'><span className="wrap">{text}</span></span></h1>
+
                 <span className="tagline">COURSE INFORMATION</span>
-                <h1>{`Project Laboratory`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "information", "description", "objectives" ]'><span className="wrap">{text}</span></span></h1>
-                <ShowMoreText>
+               
                  
                
                   <p>The course is organized largely around getting involved in original „cutting-edge” research by
@@ -86,8 +89,8 @@ domain expert but not a mathematician, while the project coordinator is the resp
 of the course, or someone appointed by the responsible instructor.
 
                   </p>
-                  </ShowMoreText>
-                  <button onClick={handleClickScroll}>Available Projects<ArrowRightCircle size={25} /></button>
+                  
+                  <button onClick={handleClickScroll}><h4>Available Projects</h4><ArrowRightCircle size={25} /></button>
               </div>
             }
               
@@ -98,6 +101,9 @@ of the course, or someone appointed by the responsible instructor.
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated " : ""}>
                   <img src={headerImg} alt="Header Img"/>
+                  {/* <h2>Instructor: Molontay Roland</h2> */}
+                  <a href="https://math.bme.hu/~molontay/eng.html"><img src={headertext} alt="Header text"/></a>
+
                 </div>}
             </TrackVisibility>
           </Col>
@@ -119,66 +125,48 @@ of the course, or someone appointed by the responsible instructor.
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated" : ""}>
+            
+              <div >
                 <span className="tagline">AIMS & OBJECTIVES</span>
                 <h2>{`By the end of the semester, the student will:`} </h2>
+               
                 <ShowMoreText lines={1}>
-                  
-                  <p>* Know the current research problems in some of the major areas in applied
+                  <h6>- Know the current research problems in some of the major areas in applied
 mathematics/computer science/physics/engineering/economics/life sciences/quantitative
-social science.</p>
-<p>* carry out research to deepen their knowledge and develop their skills regarding an area in
-</p>
-<p>* which they have a special interest.
-</p>
-<p>* know how to search the literature for articles on a specific topic.
-</p>
-<p>* gain a perspective on research in quantitative sciences.
-</p>
-<p>* learn how to identify a research problem or research question.
-</p>
-<p>* know the format of technical papers.
-</p>
-<p>* read and understand research articles.
-</p>
-<p>* learn about references and research ethics.
-</p>
-<p>* understand how to work with primary sources, and how to collect and work with data.
-</p>
-<p>* implement mathematical methods in a programming language of the student’s choice.
-</p>
-<p>* write and present technical papers.
-</p>
-<p>* understand the process of starting, working on, writing, and presenting original research.
-</p>
-<p>* develop skills regarding project management.
-</p>
-<p>* gain experience in how to organize a team project and work with peers.
-</p>
-<p>* gain experience in how to work with experts outside of mathematics.
-</p>
-<p>* (As each project is unique, specific modes of teaching and learning will respond to the nature
-and scope of the project.)</p>
-
-
-
-                  
-                  </ShowMoreText>
-                  {/* <button onClick={handleClickScroll}>More information <ArrowRightCircle size={25} /></button> */}
-              </div>
-            }
-              
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            {/* <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility> */}
+social science.</h6>
+<h6>- carry out research to deepen their knowledge and develop their skills regarding an area in
+</h6>
+<h6>- which they have a special interest.
+</h6>
+<h6>- know how to search the literature for articles on a specific topic.
+</h6>
+<h6>- gain a perspective on research in quantitative sciences.
+</h6>
+<h6>- learn how to identify a research problem or research question.
+</h6>
+<h6>- know the format of technical papers.
+</h6>
+<h6>- read and understand research articles.
+</h6>
+<h6>- learn about references and research ethics.
+</h6>       
+ <h6>- understand how to work with primary sources, and how to collect and work with data.
+</h6>
+<h6>- implement mathematical methods in a programming language of the student’s choice.
+</h6>
+<h6>- write and present technical papers.
+</h6>
+<h6>- understand the process of starting, working on, writing, and presenting original research.
+</h6>
+<h6>- develop skills regarding project management.
+</h6>
+<h6>- gain experience in how to organize a team project and work with peers.
+</h6>
+<h6>- gain experience in how to work with experts outside of mathematics.
+</h6>
+<h6>- (As each project is unique, specific modes of teaching and learning will respond to the nature
+and scope of the project.)</h6></ShowMoreText>
+                </div>
           </Col>
         </Row>
       </Container>

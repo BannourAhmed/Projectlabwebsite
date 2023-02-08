@@ -5,6 +5,11 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import ShowMoreText from "react-show-more-text";
+import { ProjectCard } from "./ProjectCard";
+
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 
 export const Oldprojects = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -14,6 +19,25 @@ export const Oldprojects = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "PREVIOUS PROJECTS" ];
   const period = 2000;
+
+   const projects = [
+    {
+      title: "Empty Project",
+      description: "HSDSLAB",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Empty Project",
+      description: "BME",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Empty Project",
+      description: "BME MATH",
+      imgUrl: projImg3,
+    },
+    
+  ];
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -57,7 +81,7 @@ export const Oldprojects = () => {
 
 
   return (
-    <section className="banner" id="Previous">
+    <section className="OldProjects" id="Previous">
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -65,15 +89,12 @@ export const Oldprojects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
                 <span className="tagline">PREVIOUS PROJECTS</span>
-                <h1>{``} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "information", "description", "objectives" ]'><span className="wrap">{text}</span></span></h1>
-                <ShowMoreText>
-                 
-               
-                  <p> </p>
-                  </ShowMoreText>
+                <h1>{``} <span className="txt-rotate" dataPeriod="500" data-rotate=''><span className="wrap">{text}</span></span></h1>
+                
                   {/* <button onClick={handleClickScroll}>More information <ArrowRightCircle size={25} /></button> */}
               </div>
             }
+          
               
             </TrackVisibility>
           </Col>
@@ -88,7 +109,19 @@ export const Oldprojects = () => {
         </Row>
       </Container>
       <Container>
-        
+          <Row>
+                        {
+                          projects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+      {/* <div> <p> TRY HERE</p></div> */}
       </Container>
     </section>
   )

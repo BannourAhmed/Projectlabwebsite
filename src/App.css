@@ -36,7 +36,7 @@ body {
   font-family: 'Montserrat', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -98,7 +98,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 0 20px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -250,22 +250,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner h1 {
   color: #ffffff;
   font-size: 65px;
-  
-  font-weight: 700;
-  letter-spacing: 0.8px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  width: 110%;
 }
+
 .banner h2 {
-  color: #c9c6c6;}
+  color: #ffffff;
+font-weight: 200;}
+.banner h4 {
+  color: #ffffff;
+font-weight: 400;
+font-size: 40px;}
 .banner p {
   color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  width: 90%;
 }
+.banner h6 {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 200%;
+font-weight: 300;}
 .banner a {
   color:#ffffff
 }
@@ -308,7 +321,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
+
+/************ Grading Css ************/
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -347,6 +361,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+.skill img {
+  width: auto;
+  height: auto;
+
+}
+.skill .float-container {
+  padding: 20px;
+}
+
+.skill  .float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}  
 
 /************ Projects Css ************/
 .project {
@@ -358,6 +386,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  
+}
+.project h3 {
+	font-size: 30px;
+	font-weight: 700;
+  text-align: center;
+  
 }
 .project p {
   color: #f7f7f7;
@@ -366,8 +401,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 100%;
 }
+.project h6 {
+  color: #ffffff;
+  /* text-decoration-style: solid; */
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  opacity: 100%;
+  text-align: left;
+  font-weight: 300;
+}
+/* .project h5 {
+  color: #ffffff;
+  text-decoration-style: solid;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  opacity: 100%;
+  text-align: left;
+  font-weight: 300;
+} */
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -476,7 +531,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient( #946228 -5.91%, hsl(216, 64%, 46%) 111.58%);
+  background: linear-gradient(90.21deg, #2C2C2C -5.91%, #2C2C2C 111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -549,8 +604,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
+background-color: #201e1d;  
+background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -565,4 +620,191 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+/************ Banner3 Css ************/
+
+.banner3 {
+  margin-top: 0;
+  padding: 260px 0 100px 0; 
+  background-color: #188fad;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner3 .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner3 h1 {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  width: 110%;
+}
+
+.banner3 h2 {
+  color: #ffffff;
+font-weight: 200;}
+.banner3 h4 {
+  color: #ffffff;
+font-weight: 400;
+font-size: 40px;}
+.banner3 p {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 90%;
+}
+.banner3 h6 {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 200%;
+font-weight: 300;}
+.banner3 a {
+  color:#ffffff
+}
+.banner3 a:hover {
+  color:#2C2C2C
+}
+.banner3 button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner3 button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner3 button:hover svg {
+  margin-left: 25px;
+}
+.banner3 img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+/************ OldProjects Css ************/
+
+.OldProjects {
+  margin-top: 0;
+  padding: 260px 0 100px 0; 
+  background-image: url('./assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.OldProjects .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.OldProjects h1 {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  line-height: 1;
+margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  width: 110%;
+}
+
+.OldProjects h2 {
+  color: #ffffff;
+font-weight: 200;}
+.OldProjects h4 {
+  color: #ffffff;
+font-weight: 400;
+font-size: 40px;}
+.OldProjects p {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 90%;
+}
+.OldProjects h6 {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 200%;
+font-weight: 300;}
+.OldProjects a {
+  color:#ffffff
+}
+.OldProjects a:hover {
+  color:#2C2C2C
+}
+.OldProjects button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.OldProjects button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.OldProjects button:hover svg {
+  margin-left: 25px;
+}
+.OldProjects img {
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
 }

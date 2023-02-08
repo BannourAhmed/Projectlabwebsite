@@ -44,25 +44,42 @@ deliverables in mind throughout the project.</p>
 <p>If you have any serious problems with your project or
 find it very difficult to manage the workload among your team members, please inform the
 responsible instructor immediately.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+
+                            <div class="float-container">
+
+  <div class="float-child">
+  <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Research paper</h5>
+                            </div>
+  </div>
+  
+  <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Research presentation</h5>
+                            </div>
+  
+</div>
+
+                        {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Research presentation</h5>
                             </div>
-                            {/* <div></div> */}
+                            <div></div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>Research paper</h5>
                             </div>
-                            {/* <div className="item">
+                            <div className="item">
                                 <img src={meter3} alt="Image" />
                                 <h5>Logo Design</h5>
-                            </div> */}
-                            {/* <div className="item">
+                            </div>
+                            <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Web Development</h5>
-                            </div> */}
-                        </Carousel>
+                            </div>
+                        </Carousel> */}
                     </div>
                 </div>
             </div>
