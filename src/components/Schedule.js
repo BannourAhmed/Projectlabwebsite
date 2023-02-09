@@ -95,7 +95,7 @@ recommend a clear distinction is made between the master’s thesis and the proj
 laboratory. Overlap is only possible in special cases and with special permission.</h6>
 <h6>- However, students are strongly encouraged to submit a TDK thesis on the topic of the project
 laboratory.</h6>
-
+<h2>Schedule and deliverables</h2>
 <h3> IEEE TEMPLATE </h3>
 <h6>A high-quality final technical report created in Latex using a double-column IEEE template.
 The paper should follow the structure of original research papers.
@@ -118,7 +118,7 @@ work.</h6>
 <h6>- The presentations can be held in English or Hungarian.</h6>
 <h6>- Snacks and treats will be provided.</h6>
 
-                <h2>Schedule and deliverables</h2>
+                
                 <div >
             
         <Chrono items={items} mode="VERTICAL_ALTERNATING"    
@@ -133,7 +133,7 @@ work.</h6>
   }} hideControls disableClickOnCircle  disableAutoScrollOnClick disableNavOnKey cardHeight={100}   activeItemIndex={10}>
     
     
-  <div><p>All project proposals are posted on the course page: <a  href="https://projectlab.math.bme.hu"> projectlab.math.bme.hu</a></p> 
+  <div style={{}}><p>All project proposals are posted on the course page: <a  href="https://projectlab.math.bme.hu"> projectlab.math.bme.hu</a></p> 
   </div>
 
 
