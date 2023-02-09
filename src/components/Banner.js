@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
+import headerImg10 from "../assets/img/header-img10.png";
+
 import headertext from "../assets/img/header-text-image.png";
 
 import { ArrowRightCircle } from 'react-bootstrap-icons';
@@ -167,6 +169,17 @@ social science.</h6>
 <h6>- (As each project is unique, specific modes of teaching and learning will respond to the nature
 and scope of the project.)</h6></ShowMoreText>
                 </div>
+          </Col>
+          <Col xs={12} md={6} xl={5}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated " : ""}>
+                  <img src={headerImg10} alt="Header Img"/>
+                  {/* <h2>Instructor: Molontay Roland</h2> */}
+                  
+
+                </div>}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>

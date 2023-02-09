@@ -277,7 +277,7 @@ font-size: 40px;}
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 200%;
+  width: 100%;
 font-weight: 300;}
 .banner a {
   color:#ffffff
@@ -368,17 +368,20 @@ font-weight: 300;}
 
 .skill img {
   width: auto;
+  /* flex: auto; */
   height: auto;
-  text-align: center;
+  /* text-align: center; */
 }
 .skill .float-container {
   padding: 20px;
+/* height: auto;
+width: auto; */
 }
 
 .skill  .float-child {
   width: 50%;
-  float: left;
-  padding: 20px;
+  float: inline-end;
+  /* padding: 20px; */
 }  
 
 /************ Projects Css ************/

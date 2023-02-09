@@ -100,7 +100,7 @@ laboratory.</h6>
 <h6>A high-quality final technical report created in Latex using a double-column IEEE template.
 The paper should follow the structure of original research papers.
 Required length: 6-7 double-column pages (for teams of 2 students)
-9-10 double-column pages (for teams of 3 students)</h6><h6>- 
+9-10 double-column pages (for teams of 3 students).</h6><h6>- 
 The above length should include figures and refences and must be self-contained.</h6><h6> 
 - It is possible two add a max 10-page-long supplementary material with additional tables,
 figures, or methodological details that can be referenced in the main text.
@@ -130,10 +130,11 @@ work.</h6>
     titleColor: 'white',
     titleColorActive: 'white',
    
-  }} hideControls disableClickOnCircle  disableAutoScrollOnClick disableNavOnKey cardHeight={100} >
+  }} hideControls disableClickOnCircle  disableAutoScrollOnClick disableNavOnKey cardHeight={100}   activeItemIndex={10}>
     
     
-  <div><p>All project proposals are posted on the course page:</p> <a  href="https://projectlab.math.bme.hu"><p>projectlab.math.bme.hu</p></a></div>
+  <div><p>All project proposals are posted on the course page: <a  href="https://projectlab.math.bme.hu"> projectlab.math.bme.hu</a></p> 
+  </div>
 
 
   <div><ShowMoreText lines={1}> <p>- Before the workshop, you must submit your project preferences and indicate group
