@@ -50,13 +50,13 @@ responsible instructor immediately.</p>
   <div class="float-child">
   <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Research paper</h5>
+                                <p>Research paper</p>
                             </div>
   </div>
   
   <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Research presentation</h5>
+                                <p>Research presentation</p>
                             </div>
   
 </div>

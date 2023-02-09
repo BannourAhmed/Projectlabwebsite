@@ -136,24 +136,24 @@ work.</h6>
   <div><p>All project proposals are posted on the course page:</p> <a  href="https://projectlab.math.bme.hu"><p>projectlab.math.bme.hu</p></a></div>
 
 
-  <div> <p>- Before the workshop, you must submit your project preferences and indicate group
+  <div><ShowMoreText lines={1}> <p>- Before the workshop, you must submit your project preferences and indicate group
 preferences using the online form found on the course page.</p>
 <p>
 - Participation in the workshop is compulsory for those students who are taking Project
 Laboratory 1 </p><p>- Here the course requirements and deliverables are presented, the project proposals are
 briefly introduced, and the final student-project assignment takes place in the workshop.</p>
 
-<p>- After the workshop, the responsible instructor connects the students with their supervisor.</p></div>
+<p>- After the workshop, the responsible instructor connects the students with their supervisor.</p></ShowMoreText></div>
 
 
 
-  <div><p>- By the end of Week 3, teams should submit a research plan (after obtaining agreement from
+  <div><ShowMoreText lines={1}><p>- By the end of Week 3, teams should submit a research plan (after obtaining agreement from
 the supervisor).</p>
 <p>- The research plan is an initial written report covering the background, specifications, and
 milestones for your project. This is an unassessed 1-2 page compulsory submission giving the
 aims and objectives of the project, the steps which will be undertaken as part of the project,
 and a very short literature review. Its purpose is to ensure all students are engaged with their
-project work.</p></div>
+project work.</p></ShowMoreText></div>
 
 
 
