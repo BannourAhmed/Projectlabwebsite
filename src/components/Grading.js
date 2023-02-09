@@ -33,7 +33,7 @@ export const Grading = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="">
                         <h2>GRADING</h2>
                         <p>Your team should contact your supervisor every other week or so, perhaps just by email, to report
 your progress. It is wise to type up your work as you do it. This will help you when you have to write
@@ -84,7 +84,7 @@ responsible instructor immediately.</p>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }

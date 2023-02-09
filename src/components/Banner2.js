@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img1.png";
+import headerImg2 from "../assets/img/header-img2.png";
+import headerImg3 from "../assets/img/header-img3.png";
+
+
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -188,8 +192,8 @@ the reading experience may be like for someone new to that research.
                   
                   <p>Effective presentations provide motivation, communicate results, and stimulate interest, all while
 being scientifically accurate and informative.</p>
-             <p>Here you can find some useful resources that can guide you in delivering a well-structured and
-engaging research presentation:</p>
+<h3>Here you can find some useful resources that can guide you in delivering a well-structured and
+engaging research presentation:</h3>
 <Table striped bordered hover>
       <thead>
         <tr>
@@ -231,7 +235,7 @@ engaging research presentation:</p>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg2} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
@@ -266,14 +270,43 @@ Focusing on the team&#39;s project is likely the most useful tactic when there a
 teamwork. Focusing on the objective can frequently make the teamwork issue appear less
 significant.</p></ShowMoreText>
 
-             <h4>Some pieces of advice for managing a team project:</h4>
-             <a href=""> <p>Organizing Academic Research Papers: How to Manage Group Projects</p></a>
-             <a href=""> <p>3 tips for successful group work
-</p></a>
-<a href=""> <p>5 Tips for Working on Group Projects</p></a>
-<a href=""><p>7 Tips to More Effectively Work on Group Projects</p></a>
-
-
+             <h3>Some pieces of advice for managing a team project:</h3>
+             <Table striped bordered hover>
+      <thead>
+        <tr>
+          <th><h2>#</h2></th>
+          <th><h2>Source</h2></th>
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <th><h2>1</h2></th>
+          <td><a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185948"><h5>Organizing Academic Research Papers: How to Manage Group Projects</h5></a></td>
+          
+          
+        </tr>
+        <tr>
+        <th><h2>2</h2></th>
+        <td><a href="https://www.prospects.ac.uk/applying-for-university/university-life/3-tips-for-successful-group-work"><h5>3 tips for successful group work</h5></a></td>
+         
+        </tr>
+        <tr>
+        <th><h2>3</h2></th>
+        <td><a href="https://www.herzing.edu/blog/5-tips-working-group-projects"><h5>5 Tips for Working on Group Projects</h5></a></td>
+          
+        </tr>
+        <tr>
+        <th><h2>4</h2></th>
+        <td><a href="https://www.saintleo.edu/about/stories/blog/7-tips-to-more-effectively-work-on-group-projects"><h5>7 Tips to More Effectively Work on Group Projects</h5></a></td>
+          
+        </tr>
+      
+        
+      </tbody>
+    </Table>
+        
                   {/* <button onClick={handleClickScroll}>More information <ArrowRightCircle size={25} /></button> */}
               </div>
             }
@@ -281,12 +314,12 @@ significant.</p></ShowMoreText>
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            {/* <TrackVisibility>
+            <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                <div className={isVisible ? "" : ""}>
+                  <img src={headerImg3} alt="Header Img"/>
                 </div>}
-            </TrackVisibility> */}
+            </TrackVisibility>
           </Col>
         </Row>
       </Container>
