@@ -98,13 +98,18 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
+  
   padding: 0 20px;
   font-size: 18px;
-  opacity: 0.75;
+  opacity: 0.65;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
+    /* text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #ffffffbe;
+  text-underline-offset: 5px; */
 }
 span.navbar-text {
     display: flex;
@@ -166,6 +171,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
+  
   background-color: #fff;
   left: 0;
   top: 0;
@@ -187,7 +193,7 @@ nav.navbar .navbar-toggler:focus {
     box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {
-  width: 24px;
+  width: 20px;
   height: 17px;
   background-image: none;
   position: relative;
@@ -200,7 +206,7 @@ nav.navbar .navbar-toggler-icon:focus {
 }
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
-	width: 24px;
+	width: 20px;
 	position: absolute;
 	height: 2px;
 	background-color: #fff;
