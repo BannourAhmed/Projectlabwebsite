@@ -95,7 +95,9 @@ recommend a clear distinction is made between the master’s thesis and the proj
 laboratory. Overlap is only possible in special cases and with special permission.</h6>
 <h6>- However, students are strongly encouraged to submit a TDK thesis on the topic of the project
 laboratory.</h6>
+
 <h2>Schedule and deliverables</h2>
+
 <h3> IEEE TEMPLATE </h3>
 <h6>A high-quality final technical report created in Latex using a double-column IEEE template.
 The paper should follow the structure of original research papers.

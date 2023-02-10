@@ -45,17 +45,21 @@ deliverables in mind throughout the project.</p>
 find it very difficult to manage the workload among your team members, please inform the
 responsible instructor immediately.</p>
 
-                            <div class="float-container">
 
-  <div class="float-child">
-  <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <p>Research paper</p>
-                            </div>
-  </div>
+
+
+
+                            <div class="row">
+
+  <div class="column">
   
-  <div className="item">
-                                <img src={meter1} alt="Image2" />
+                                <img src={meter2} alt="60" />
+                                <p>Research paper</p>
+                           </div>
+  
+  
+                                <div class="column">
+                                <img src={meter1} alt="40" />
                                 <p>Research presentation</p>
                             </div>
   

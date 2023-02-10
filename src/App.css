@@ -254,8 +254,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.7px;
   line-height: 1;
   margin-bottom: 20px;
-  display: block;
-  width: 110%;
+  width: 100%;
 }
 
 .banner h2 {
@@ -270,7 +269,7 @@ font-size: 40px;}
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 90%;
+  width: 100%;
 }
 .banner h6 {
   color: #ffffff;
@@ -367,28 +366,35 @@ font-weight: 300;}
 }
 
 .skill img {
-  width: auto;
-  /* flex: auto; */
-  height: auto;
+  width: 80%;
   /* text-align: center; */
 }
-.skill .float-container {
-  /* padding: 20px; */
-/* height: auto;
 
-width: auto; */
-float: auto ;
-/* width: 100%; */
-
-
+/* .skill .column {
+  float: center;
+  width: 33.33%;
+  padding: 5px;
 }
 
-.skill  .float-child {
-  width: 100%;
-  float: left ;
-  /* padding: 20px; */
-}  
+.skill .row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+.skill .row {
+  display: flex;
+  
+}
 
+.skill .column {
+  flex: 33.33%;
+  padding: 5px;
+}
+@media screen and (max-width: 550px)  {
+  .skill .column {
+    width: 100% !important;
+  }
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
