@@ -76,49 +76,31 @@ export const Schedule = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Project Laboratory vs Master’s thesis vs TDK</h2>
-                
-                <h6>Project Laboratory is similar to a master’s thesis project, but it has some major differences:
-
-
-
-
-</h6>
-<h6>- Project Laboratory is a team project, while the master’s thesis must be individual work.</h6>
-<h6>- Here the research question comes from outside of mathematics (but the solution requires
-advanced mathematical tools), however, the master’s thesis frequently solves an intrinsically
-motivated problem in mathematics</h6>
-<h6>- Here the paper must be a lot shorter than the length of a master’s thesis. This paper is
-structured in a more research article-like way, with a focus on the original results.</h6>
-<h6>- Because of the above differences (in particular the team vs. individual nature), we strongly
-recommend a clear distinction is made between the master’s thesis and the project
-laboratory. Overlap is only possible in special cases and with special permission.</h6>
-<h6>- However, students are strongly encouraged to submit a TDK thesis on the topic of the project
-laboratory.</h6>
+             
 
 <h2>Schedule and deliverables</h2>
 
-<h3> IEEE TEMPLATE </h3>
-<h6>A high-quality final technical report created in Latex using a double-column IEEE template.
-The paper should follow the structure of original research papers.
+<h3> Documentation </h3>
+<h6>A high-quality final technical report created in Latex using a  <a href="https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/" >double-column IEEE template</a>.  
+ The paper should follow the structure of original research papers.
 Required length: 6-7 double-column pages (for teams of 2 students)
-9-10 double-column pages (for teams of 3 students).</h6><h6>- 
+9-10 double-column pages (for teams of 3 students).</h6><h6>• 
 The above length should include figures and refences and must be self-contained.</h6><h6> 
-- It is possible two add a max 10-page-long supplementary material with additional tables,
+• It is possible two add a max 10-page-long supplementary material with additional tables,
 figures, or methodological details that can be referenced in the main text.
 The paper must be written in English.</h6>
-<h3> STUDENT PRESENTATION</h3>
+<h3> Presentation</h3>
 <h6>Students present their work at a conference-like event. They are encouraged to comment on their
 peers’ work and ask questions.</h6> 
-<h6>- The presentation must follow the structure and standards of research
+<h6>• The presentation must follow the structure and standards of research
 presentations.</h6>
 
-<h6>- Teams of 2 students have 25 minutes, while teams of 3 students have 35 minutes to present their
+<h6>• Teams of 2 students have 25 minutes, while teams of 3 students have 35 minutes to present their
 work.</h6>
-<h6>- The presentations must be aided by a slideshow (or similar)</h6>
-<h6>- The presentations will be followed by a short discussion.</h6>
-<h6>- The presentations can be held in English or Hungarian.</h6>
-<h6>- Snacks and treats will be provided.</h6>
+<h6>• The presentations must be aided by a slideshow (or similar)</h6>
+<h6>• The presentations will be followed by a short discussion.</h6>
+<h6>• The presentations can be held in English or Hungarian.</h6>
+<h6>• Snacks and treats will be provided.</h6>
 
                 
                 <div >
@@ -139,20 +121,20 @@ work.</h6>
   </div>
 
 
-  <div><ShowMoreText lines={1}> <p>- Before the workshop, you must submit your project preferences and indicate group
+  <div><ShowMoreText lines={1}> <p>• Before the workshop, you must submit your project preferences and indicate group
 preferences using the online form found on the course page.</p>
 <p>
-- Participation in the workshop is compulsory for those students who are taking Project
+• Participation in the workshop is compulsory for those students who are taking Project
 Laboratory 1 </p><p>- Here the course requirements and deliverables are presented, the project proposals are
 briefly introduced, and the final student-project assignment takes place in the workshop.</p>
 
-<p>- After the workshop, the responsible instructor connects the students with their supervisor.</p></ShowMoreText></div>
+<p>• After the workshop, the responsible instructor connects the students with their supervisor.</p></ShowMoreText></div>
 
 
 
-  <div><ShowMoreText lines={1}><p>- By the end of Week 3, teams should submit a research plan (after obtaining agreement from
+  <div><ShowMoreText lines={1}><p>• By the end of Week 3, teams should submit a research plan (after obtaining agreement from
 the supervisor).</p>
-<p>- The research plan is an initial written report covering the background, specifications, and
+<p>• The research plan is an initial written report covering the background, specifications, and
 milestones for your project. This is an unassessed 1-2 page compulsory submission giving the
 aims and objectives of the project, the steps which will be undertaken as part of the project,
 and a very short literature review. Its purpose is to ensure all students are engaged with their
@@ -161,7 +143,7 @@ project work.</p></ShowMoreText></div>
 
 
 
-  <div><p>- On the online workshop, students briefly report on their progress. (Teams of 2 students: 5 min,
+  <div><p>• On the online workshop, students briefly report on their progress. (Teams of 2 students: 5 min,
 teams of 3 students: 7 min.)  </p></div>
 
 

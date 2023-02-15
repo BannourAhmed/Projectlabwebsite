@@ -91,14 +91,14 @@ export const Banner2 = () => {
   };
 
   return (
-    <section className="banner" id="scientific">
+    <section className="banner2" id="scientific">
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                <span className="tagline">WRITING TIPS</span>
+                <span className="tagline">TIPS</span>
                 
                 <ShowMoreText>
                  
@@ -116,54 +116,17 @@ the reading experience may be like for someone new to that research.
                   <h1></h1>
                   <h3>Various resources are provided to help students learn effective scientific writing:</h3>
                   <h1></h1>
-                  <Table striped bordered hover>
-      <thead>
+      {/* <thead>
         <tr>
           <th><h2>#</h2></th>
           <th><h2>Source</h2></th>
           
           
         </tr>
-      </thead>
-      <tbody>
-        <tr>
-        <th><h2>1</h2></th>
-          <td><a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185901"><h5>Organizing Academic Research Papers</h5></a></td>
-          
-          
-        </tr>
-        <tr>
-        <th><h2>2</h2></th>
-        <td><a href="https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1"><h5>10 Simple Steps to Writing a Scientific Paper</h5></a></td>
-         
-        </tr>
-        <tr>
-        <th><h2>3</h2></th>
-        <td><a href="https://www.elsevier.com/connect/11-steps-to-structuring-a-science-paper-editors-will-take-seriously"><h5>11 steps to structuring a science paper editors will take seriously</h5></a></td>
-          
-        </tr>
-        <tr>
-        <th><h2>4</h2></th>
-        <td><a href="https://jgscott.github.io/teaching/writeups/write_ups/"><h5>Data analysis write-ups</h5></a></td>
-          
-        </tr>
-        <tr>
-        <th><h2>5</h2></th>
-        <td><a href="https://www.grammarly.com/blog/how-to-write-a-research-paper/"><h5>The Ultimate Guide to Writing a Research Paper</h5></a></td>
-          
-        </tr>
-        <tr>
-        <th><h2>6</h2></th>
-        <td><a href="https://nnkt.ueh.edu.vn/wp-content/uploads/2019/06/Academiv-Phrase-Bank.pdf"><h5>Academic Phrase Bank</h5></a></td>
-          
-        </tr>
-        
-      </tbody>
-    </Table>
-    <h2> For collaborative writing, you are very much encouraged to use <a href="https://www.overleaf.com/">Overleaf</a>.</h2>
-    
-                 
-              </div>
+      </thead> */}
+      {/* <tbody> */}
+        {/* <tr> */}
+        </div>
             }
               
             </TrackVisibility>
@@ -176,6 +139,46 @@ the reading experience may be like for someone new to that research.
                 </div>}
             </TrackVisibility>
           </Col>
+        <h7>1 •  <a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185901"> Organizing Academic Research Papers</a></h7>
+          
+          
+       <br/>
+      
+       
+        <h7>2 •  
+        <a href="https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1">  10 Simple Steps to Writing a Scientific Paper</a></h7>
+        <br/>
+
+        <h7>3 • 
+        <a href="https://www.elsevier.com/connect/11-steps-to-structuring-a-science-paper-editors-will-take-seriously"> 11 steps to structuring a science paper editors will take seriously</a></h7>
+        <br/>
+
+        <h7>4 • 
+        <a href="https://jgscott.github.io/teaching/writeups/write_ups/"> Data analysis write-ups</a></h7>
+        <br/>
+
+        <h7>5 • 
+        <a href="https://www.grammarly.com/blog/how-to-write-a-research-paper/"> The Ultimate Guide to Writing a Research Paper</a></h7>
+        <br/>
+
+        <h7>6 • 
+        <a href="https://nnkt.ueh.edu.vn/wp-content/uploads/2019/06/Academiv-Phrase-Bank.pdf"> Academic Phrase Bank</a></h7>         
+       
+       
+     
+          
+       
+       
+      
+      
+        
+      {/* </tbody> */}
+   
+    <h2> For collaborative writing, you are very much encouraged to use <a href="https://www.overleaf.com/">Overleaf</a>.</h2>
+    
+                 
+          
+          
         </Row>
       </Container>
       

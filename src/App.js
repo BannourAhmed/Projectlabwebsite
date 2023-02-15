@@ -5,7 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Banner2 } from "./components/Banner2";
 import { Banner3 } from "./components/Banner3";
-
+import { TDK } from "./components/tdk";
 import { Grading } from "./components/Grading";
 import { Schedule } from "./components/Schedule";
 import { Contact } from "./components/Contact";
@@ -17,10 +17,11 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner /> 
+      <TDK />
       <Schedule />
       <Grading />
       <Banner2 />
-      <Contact />
+      {/* <Contact /> */}
       <Oldprojects/>
       <Banner3 />
       <Footer />

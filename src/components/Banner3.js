@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
+import CardGroup from 'react-bootstrap/CardGroup';
+import Card from 'react-bootstrap/Card';
 import { ProjectCard } from "./ProjectCard";
 
 import TrackVisibility from 'react-on-screen';
@@ -154,15 +156,14 @@ description4:"Related literature: Landauer, M., Wurzenberger, M., Skopik, F., Se
               <div className={isVisible ? "animate__animated " : ""}>
                 <span className="tagline">Available projects</span>
                 {/* <h1>{`Project Laboratory`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "information", "description", "objectives" ]'><span className="wrap">{text}</span></span></h1> */}
-                <ShowMoreText>
-                 
-               
-                  
-                  </ShowMoreText>
+             
+
+
                   {/* <button onClick={handleClickScroll}>Available Projects<ArrowRightCircle size={25} /></button> */}
               </div>
             }
               
+            
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
@@ -179,7 +180,7 @@ description4:"Related literature: Landauer, M., Wurzenberger, M., Skopik, F., Se
 
       </Container>
       <Container>
-          <Row>
+          {/* <Row>
            
                         {
                           projects.map((project, index) => {
@@ -191,7 +192,7 @@ description4:"Related literature: Landauer, M., Wurzenberger, M., Skopik, F., Se
                             )
                           })
                         }
-                      </Row>
+                      </Row> */}
       {/* <div> <p> TRY HERE</p></div> */}
       </Container>
     
