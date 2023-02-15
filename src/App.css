@@ -538,7 +538,7 @@ font-weight: 300;}
   opacity: 0.9;
   position: absolute;
   border-radius: 20px;
-  width: auto;
+  width: max-content;
   overflow: auto;
   height: 0;
   transition: 0.4s ease-in-out;
@@ -549,8 +549,9 @@ font-weight: 300;}
 
 .proj-imgbx img{
   float: none;
-    width:  400px;
-    height: 400px;
+    width: max-content;
+    display: flex;
+    height: max-content;
     object-fit: contain;
 }
 
