@@ -24,6 +24,7 @@ export const Oldprojects = () => {
     {
       title: "Empty Project",
       description: "HSDSLAB",
+      description2:"Professor's name",
       imgUrl: projImg1,
     },
     {
