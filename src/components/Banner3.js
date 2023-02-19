@@ -11,12 +11,16 @@ import TrackVisibility from 'react-on-screen';
 import ShowMoreText from "react-show-more-text";
 import projImg1 from "../assets/img/1.png";
 import projImg2 from "../assets/img/2.png";
+import projImg21 from "../assets/img/2-1.png";
+
 import projImg3 from "../assets/img/3.png";
 import projImg4 from "../assets/img/4.png";
 import projImg5 from "../assets/img/5.png";
 import projImg6 from "../assets/img/6.png";
 import projImg7 from "../assets/img/7.png";
-import projImg8 from "../assets/img/7.png";
+import projImg8 from "../assets/img/8.png";
+import projectimage from "../assets/img/p1.png";
+
 
 export const Banner3 = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -195,7 +199,145 @@ description4:"Related literature: Landauer, M., Wurzenberger, M., Skopik, F., Se
                       </Row> */}
       {/* <div> <p> TRY HERE</p></div> */}
       </Container>
+      <Row  xs={1} md={5} className="g-5">
+      
+      <Col>
+          <Card  className="card1" onClick={handleClick} bg="dark">
+     <Card.Title><h2>Psychological characteristics behind (academic) performance</h2></Card.Title>
+           <br/>
+            <Card.Img variant="top" src={projectimage} />
+            <Card.Body >
+              <Card.Text><h7>Supervisor: Dr. Beatrix Séllei</h7><br/>
+              <h7>Assistant Professor</h7>
+              <br/>
+                <img className="img2" src={projImg1}/>
+
+              </Card.Text>
+              {isShown &&  (
+  <div>
+The research topic aims to investigate the effects of positive psychological characteristics behind successful performance using mathematical methods. The primary area of research is the examination of predictions using machine learning methodology to filter out human attributes that influence performance. This kind of modelling of success enables optimal organizational human resource planning and development. The research area combines the results of the humanities with the field of data sciences using mathematical tools.
+<br/><br/>Recommended literature: Séllei, B., Stumphauser, N., & Molontay, R. (2021). Traits versus Grades—The Incremental Predictive Power of Positive Psychological Factors over Pre-Enrollment Achievement Measures on Academic Performance. Applied Sciences, 11(4), 1744. Richardson, M., Abraham, C., & Bond, R. (2012). Psychological correlates of university students' academic performance: a systematic review and meta-analysis. Psychological bulletin, 138(2), 353. Martínez, I. M., Youssef-Morgan, C. M., Chambel, M. J., & Marques-Pinto, A. (2019). Antecedents of academic performance of university students: Academic engagement and psychological capital resources. Educational Psychology, 39(8), 1047-1067.
+ 
+  </div>
+)}
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card  onClick={handleClick} bg="dark">
+     <Card.Title><h2>Analyzing the competition in the Hungarian fuel market</h2></Card.Title>
+           <br/>
+            <Card.Img variant="top" src={projectimage} />
+            <Card.Body >
+              <Card.Text><h7>Supervisor: Dr. Zombor Berezvai</h7><br/>
+              <h7>Head of Economic and Market Research, Hungarian Competition Authority</h7>
+              <br/>
+              <h7>Supervisor:Dr. Mihály Szabó</h7><br/>
+              <h7>Rector's delegate. Rector's Office Directorate of Education, BME</h7>
+              <br/>
+                <img className="img2" src={projImg2}/>
+                <img className="img2" src={projImg21}/>
+
+
+              </Card.Text>
+              {isShown && (
+  <div>The aim of the research is to investigate the competitive processes in the Hungarian retail fuel market, what determines the prices at which certain petrol stations sell fuel (e.g. the number of other petrol stations nearby, the population of the settlement, the number of petrol stations on the motorway). The topicality of the topic is given by the fuel price freeze, which was lifted in December 2022 after more than a year, as it is an interesting question to examine the competition in the reviving market. The data for the analysis can be obtained from https://holtankoljak.net/, which is also part of the exercise.",
+  <br/><br/>Recommended literature: Fasoula, E., & Schweikert, K. (2020). Price regulations and price adjustment dynamics: Evidence from the Austrian retail fuel market. Journal of Transport Economics and Policy (JTEP), 54(1), 21-39.Genakos, C., & Pagliero, M. (2022). Competition and pass-through: evidence from isolated markets. American Economic Journal: Applied Economics, 14(4), 35-57.Farkas, R., & Yontcheva, B. (2019). Price transmission in the presence of a vertically integrated dominant firm: Evidence from the gasoline market. Energy policy, 126, 223-237.Farkas, R., & Czigány, G. (2017). Az autópályák indirekt hatása a kiskereskedelmi benzinárakra. STATISZTIKAI SZEMLE, 95(3), 278-296.",
+  
+  </div>
+)}
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card  onClick={handleClick} bg="dark">
+     <Card.Title><h2>Tournament Design</h2></Card.Title>
+           <br/>
+            <Card.Img variant="top" src={projectimage} />
+            <Card.Body >
+              <Card.Text><h7>Supervisor: Dr. László Csató</h7><br/>
+              <h7>Research Fellow. Research Group of Operations Research and Decision Systems, SZTAKI</h7>
+              <br/>
+                <img className="img2" src={projImg3}/>
+
+              </Card.Text>
+              {isShown && (
+  <div>
+Finding the optimal design of sports tournaments is an important question of scientific research. Organizers can choose several characteristics of a tournament, including its format, the schedule of individual matches, the seeding policy, or the ranking rules, subject to some constraints. In the analysis and comparison of different tournament designs, both theoretical and simulation tools can be successfully applied.",     description4:"Recommended literature:Fasoula, E., & Schweikert, K. (2020). Price regulations and price adjustment dynamics: Evidence from the Austrian retail fuel market. Journal of Transport Economics and Policy (JTEP), 54(1), 21-39.Genakos, C., & Pagliero, M. (2022). Competition and pass-through: evidence from isolated markets. American Economic Journal: Applied Economics, 14(4), 35-57.Farkas, R., & Yontcheva, B. (2019). Price transmission in the presence of a vertically integrated dominant firm: Evidence from the gasoline market. Energy policy, 126, 223-237.Farkas, R., & Czigány, G. (2017). Az autópályák indirekt hatása a kiskereskedelmi benzinárakra. STATISZTIKAI SZEMLE, 95(3), 278-296.",
+   <br/><br/>Related literature: Csató, L. (2021). Tournament Design: How Operations Research Can Improve Sports Rules. Palgrave Pivots in Sports Economics. Palgrave Macmillan, Cham, Switzerland.Kendall, G. and Lenten, L. J. A. (2017). When sports rules go awry. European Journal of Operational Research, 257(2):377–394.Lenten, L. J. A. and Kendall, G. (2021). Scholarly sports: Influence of social science academe on sports rules and policy. Journal of the Operational Research Society, in press. DOI: 10.1080/01605682.2021.2000896.  Wright, M. (2009). 50 years of OR in sport. Journal of the Operational Research Society, 60(Supplement 1):S161–S168. Wright, M. (2014). OR analysis of sporting rules – A survey. European Journal of Operational Research, 232(1):1–8."
     
+  </div>
+)}
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card  onClick={handleClick} bg="dark">
+          <Card.Title><h2>Tournament Design</h2></Card.Title>
+           <br/>
+            <Card.Img variant="top" src={projectimage} />
+            <Card.Body >
+              <Card.Text><h7>Supervisor: Dr. Beatrix Séllei</h7><br/>
+              <h7>Assistant Professor</h7>
+              <br/>
+                <img className="img2" src={projImg1}/>
+
+              </Card.Text>
+              {isShown && (
+  <div>
+The research topic aims to investigate the effects of positive psychological characteristics behind successful performance using mathematical methods. The primary area of research is the examination of predictions using machine learning methodology to filter out human attributes that influence performance. This kind of modelling of success enables optimal organizational human resource planning and development. The research area combines the results of the humanities with the field of data sciences using mathematical tools.
+<br/><br/>Recommended literature: Séllei, B., Stumphauser, N., & Molontay, R. (2021). Traits versus Grades—The Incremental Predictive Power of Positive Psychological Factors over Pre-Enrollment Achievement Measures on Academic Performance. Applied Sciences, 11(4), 1744. Richardson, M., Abraham, C., & Bond, R. (2012). Psychological correlates of university students' academic performance: a systematic review and meta-analysis. Psychological bulletin, 138(2), 353. Martínez, I. M., Youssef-Morgan, C. M., Chambel, M. J., & Marques-Pinto, A. (2019). Antecedents of academic performance of university students: Academic engagement and psychological capital resources. Educational Psychology, 39(8), 1047-1067.
+ 
+  </div>
+)}
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card  onClick={handleClick} bg="dark">
+          <Card.Title><h2>Tournament Design</h2></Card.Title>
+           <br/>
+            <Card.Img variant="top" src={projectimage} />
+            <Card.Body >
+              <Card.Text><h7>Supervisor: Dr. Beatrix Séllei</h7><br/>
+              <h7>Assistant Professor</h7>
+              <br/>
+                <img className="img2" src={projImg1}/>
+
+              </Card.Text>
+              {isShown && (
+  <div>
+The research topic aims to investigate the effects of positive psychological characteristics behind successful performance using mathematical methods. The primary area of research is the examination of predictions using machine learning methodology to filter out human attributes that influence performance. This kind of modelling of success enables optimal organizational human resource planning and development. The research area combines the results of the humanities with the field of data sciences using mathematical tools.
+<br/><br/>Recommended literature: Séllei, B., Stumphauser, N., & Molontay, R. (2021). Traits versus Grades—The Incremental Predictive Power of Positive Psychological Factors over Pre-Enrollment Achievement Measures on Academic Performance. Applied Sciences, 11(4), 1744. Richardson, M., Abraham, C., & Bond, R. (2012). Psychological correlates of university students' academic performance: a systematic review and meta-analysis. Psychological bulletin, 138(2), 353. Martínez, I. M., Youssef-Morgan, C. M., Chambel, M. J., & Marques-Pinto, A. (2019). Antecedents of academic performance of university students: Academic engagement and psychological capital resources. Educational Psychology, 39(8), 1047-1067.
+ 
+  </div>
+)}
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card  onClick={handleClick} bg="dark">
+          <Card.Title><h2>Tournament Design</h2></Card.Title>
+           <br/>
+            <Card.Img variant="top" src={projectimage} />
+            <Card.Body >
+              <Card.Text><h7>Supervisor: Dr. Beatrix Séllei</h7><br/>
+              <h7>Assistant Professor</h7>
+              <br/>
+                <img className="img2" src={projImg1}/>
+
+              </Card.Text>
+              {isShown && (
+  <div>
+The research topic aims to investigate the effects of positive psychological characteristics behind successful performance using mathematical methods. The primary area of research is the examination of predictions using machine learning methodology to filter out human attributes that influence performance. This kind of modelling of success enables optimal organizational human resource planning and development. The research area combines the results of the humanities with the field of data sciences using mathematical tools.
+<br/><br/>Recommended literature: Séllei, B., Stumphauser, N., & Molontay, R. (2021). Traits versus Grades—The Incremental Predictive Power of Positive Psychological Factors over Pre-Enrollment Achievement Measures on Academic Performance. Applied Sciences, 11(4), 1744. Richardson, M., Abraham, C., & Bond, R. (2012). Psychological correlates of university students' academic performance: a systematic review and meta-analysis. Psychological bulletin, 138(2), 353. Martínez, I. M., Youssef-Morgan, C. M., Chambel, M. J., & Marques-Pinto, A. (2019). Antecedents of academic performance of university students: Academic engagement and psychological capital resources. Educational Psychology, 39(8), 1047-1067.
+ 
+  </div>
+)}
+            </Card.Body>
+          </Card>
+        </Col>
+    </Row>
     </section>
   )
 }

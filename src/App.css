@@ -718,10 +718,17 @@ background-position: center center;
   display: block;
   width: 110%;
 }
+.banner3 .card1 {
+padding-left: 30px;}
 
 .banner3 h2 {
   color: #ffffff;
-font-weight: 200;}
+font-weight: 200;
+font-size: 25px;
+text-decoration: underline;
+text-align: center;
+text-underline-offset: 4px;
+}
 .banner3 h4 {
   color: #ffffff;
 font-weight: 400;
@@ -763,6 +770,10 @@ font-weight: 300;}
 }
 .banner3 button:hover svg {
   margin-left: 25px;
+}
+.banner3 .img2 {
+  width: 100px;
+  padding: 5px ;
 }
 .banner3 img {
   animation: updown 3s linear infinite;
@@ -1026,4 +1037,88 @@ font-weight: 300;}
   opacity: 100%;
   text-align: left;
   font-weight: 300;
+}
+
+/* HISTORYYYYY */
+.history {
+  margin-top: 0;
+  padding: 100px 0 100px 0; 
+  background-image: linear-gradient(rgb(39, 92, 172),rgb(29, 169, 194));
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.history .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  /* background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5); */
+  font-size: 30px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.history h1 {
+  color: #ffffff;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  line-height: 1;
+margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  width: 110%;
+}
+
+.history h2 {
+  color: #ffffff;
+font-weight: 200;}
+.history h4 {
+  color: #ffffff;
+font-weight: 400;
+font-size: 40px;}
+.history p {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 90%;
+}
+.history h6 {
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 200%;
+font-weight: 300;}
+.history a {
+  color:#ffffff
+}
+.history a:hover {
+  color:#2C2C2C
+}
+.history button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.history button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.history button:hover svg {
+  margin-left: 25px;
+}
+.history img {
+  
+  width: 50%;
+  animation: updown 3s linear infinite;
 }

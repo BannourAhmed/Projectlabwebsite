@@ -10,6 +10,8 @@ import { Grading } from "./components/Grading";
 import { Schedule } from "./components/Schedule";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { History } from "./components/History";
+
 import { Oldprojects } from "./components/Oldprojects";
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
       <Grading />
       <Banner2 />
       {/* <Contact /> */}
+      <History/>
       <Oldprojects/>
       <Banner3 />
       <Footer />
