@@ -1122,3 +1122,6 @@ font-weight: 300;}
   width: 50%;
   animation: updown 3s linear infinite;
 }
+.history .Container{
+  width: 50%;
+}
