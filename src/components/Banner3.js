@@ -164,7 +164,7 @@ description4:"Related literature: Landauer, M., Wurzenberger, M., Skopik, F., Se
       {/* <div> <p> TRY HERE</p></div> */}
       </Container>
       <Container auto>
-      <Row xs={1} md={2} className="g-5">
+      <Row xs={1} md={3} className="g-5">
       
       <Col>
           <Card bg="dark">
