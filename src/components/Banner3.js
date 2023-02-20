@@ -164,10 +164,10 @@ description4:"Related literature: Landauer, M., Wurzenberger, M., Skopik, F., Se
       {/* <div> <p> TRY HERE</p></div> */}
       </Container>
       <Container auto>
-      <Row xs={1} md={3} className="g-5">
+      <Row xs={1} md={2} className="g-5">
       
       <Col>
-          <Card    bg="dark">
+          <Card bg="dark">
      <Card.Title><h2>Psychological characteristics behind (academic) performance</h2></Card.Title>
            <br/>
             <Card.Img variant="top" src={projectimage} />
