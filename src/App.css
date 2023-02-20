@@ -724,10 +724,15 @@ padding-left: 30px;}
 .banner3 h2 {
   color: #ffffff;
 font-weight: 200;
-font-size: 25px;
+font-size: 22px;
 text-decoration: underline;
+text-decoration-thickness: 2px;
+text-decoration-color: #3b77e76c;
 text-align: center;
 text-underline-offset: 4px;
+margin-inline: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 .banner3 h4 {
   color: #ffffff;
@@ -1122,6 +1127,6 @@ font-weight: 300;}
   width: 50%;
   animation: updown 3s linear infinite;
 }
-.history .Container{
+.history .Container .cont1{
   width: 50%;
 }
