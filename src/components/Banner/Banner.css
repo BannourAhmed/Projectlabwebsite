@@ -1,0 +1,139 @@
+/************ Banner Css ************/
+
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0; 
+    background-image: url('C:/Users/BANNOUR/Desktop/personal1/src/assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner .tagline {
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    /* padding: 8px 10px; */
+    text-decoration: none;
+    text-decoration-thickness: 3px;
+    /* background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5); */
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner .tagline2 {
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    width: 50%;
+    /* text-decoration: underline; */
+    text-decoration-thickness: 0.5px;
+    background: linear-gradient(90.21deg, #2a8ad82a -5.91%, rgba(73, 47, 189, 0.185) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    font-size: 25px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  
+  .banner .imgheader {
+    width: 30%;
+  }
+  .banner h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .banner h2 {
+	font-size: 40px;
+	font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner h3 {
+	font-size: 20px;
+	font-weight: 400;
+
+}
+.banner .showmore {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+
+
+
+}
+
+.banner h5 {
+text-align: center;    font-size: 30px;
+    color: #ffffff;
+  font-weight: 200;
+}
+  .banner h4 {
+    color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;}
+  .banner p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .banner h6 {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  font-weight: 300;}
+  .banner a {
+    color:#ffffff;
+    text-decoration: none;
+
+  }
+  .banner a:hover {
+    color:#2C2C2C
+  }
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  .banner img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(0px);
+      }
+      50% {
+          transform: translateY(0px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }

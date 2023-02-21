@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.png";
-import headerImg10 from "../assets/img/header-img10.png";
+import headerImg from "../../assets/img/header-img.png";
+import headerImg10 from "../../assets/img/header-img10.png";
 
-import headertext from "../assets/img/header-text-image.png";
+import headertext from "../../assets/img/header-text-image.png";
 
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -64,13 +64,13 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
-          {/* <Col xs={12} md={6} xl={7}> */}
+          <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated " : ""}>
                                 <h1>{`Project Laboratory`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "information", "description", "objectives" ]'><span className="wrap">{text}</span></span></h1>
 
-                <span className="tagline">COURSE INFORMATION</span>
+                <h2>Course Information</h2>
                
                  
                
@@ -79,9 +79,7 @@ applying advanced mathematical tools to answer research questions arising outsid
 (e.g., computer science, physics, engineering, life sciences, economics, quantitative social science).
 </p>
                   <p>Students are working in small teams (2-3 students) on a research paper, to make it a conference-
-presentable and journal-publishable work by the end of Project Laboratory 2. Applied
-mathematicians often collaborate with each other, so the course aims at giving students a taste of
-not only research but also research collaboration.
+presentable and journal-publishable work by the end of Project Laboratory 2. Applied mathematicians often collaborate with other scientists, so the course aims at giving students a taste of not only research but also research collaboration.
 
                   </p>
                   <p>
@@ -92,28 +90,28 @@ of the course, or someone appointed by the responsible instructor.
 
                   </p>
                   
-                  <button onClick={handleClickScroll}><h4>Available Projects</h4><ArrowRightCircle size={25} /></button>
-                  <img className="imgheader" src={headerImg} alt="Header Img"/>
+                  <button className="tagline2" onClick={handleClickScroll}><h5>Available Projects<ArrowRightCircle size={25} /></h5></button>
+                  {/* <img className="imgheader" src={headerImg} alt="Header Img"/> */}
                   <br/>
                   {/* <h2>Instructor: Molontay Roland</h2> */}
-                  <a href="https://math.bme.hu/~molontay/eng.html"><img  className="imgheader" src={headertext} alt="Header text"/></a>
+                  {/* <a href="https://math.bme.hu/~molontay/eng.html"><img  className="imgheader" src={headertext} alt="Header text"/></a> */}
 
               </div>
             }
         
             </TrackVisibility>
-          {/* </Col> */}
-          {/* <Col xs={12} md={6} xl={5}>
+          </Col>
+          <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated " : ""}>
                   <img src={headerImg} alt="Header Img"/>
-                  <h2>Instructor: Molontay Roland</h2>
-                  <a href="https://math.bme.hu/~molontay/eng.html"><img src={headertext} alt="Header text"/></a>
+                  <a href="https://math.bme.hu/~molontay/eng.html"><h5>Instructor: Dr Roland Molontay</h5></a>
+                  {/* <a href="https://math.bme.hu/~molontay/eng.html"><img src={headertext} alt="Header text"/></a> */}
 
                 </div>}
             </TrackVisibility>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
       <Container>
@@ -134,10 +132,10 @@ of the course, or someone appointed by the responsible instructor.
           <Col xs={12} md={6} xl={7}>
             
               <div >
-                <span className="tagline">AIMS & OBJECTIVES</span>
-                <h2>{`By the end of the semester, the student will:`} </h2>
+                <h2>Aims & Objectives</h2>
+                <h3>{`By the end of the semester, the student will:`} </h3>
                
-                <ShowMoreText lines={1}>
+               <ul> <ShowMoreText className="showmore" lines={1}>
                   <h6>• Know the current research problems in some of the major areas in applied
 mathematics/computer science/physics/engineering/economics/life sciences/quantitative
 social science.</h6>
@@ -172,7 +170,7 @@ social science.</h6>
 <h6>• gain experience in how to work with experts outside of mathematics.
 </h6>
 <h6>• (As each project is unique, specific modes of teaching and learning will respond to the nature
-and scope of the project.)</h6></ShowMoreText>
+and scope of the project.)</h6></ShowMoreText></ul>
                 </div>
           </Col>
           <Col xs={12} md={6} xl={5}>

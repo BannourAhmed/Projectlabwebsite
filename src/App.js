@@ -1,8 +1,10 @@
 
+import "./components/Banner/Banner.css";
 import './App.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
+import { Banner } from "./components/Banner/Banner";
 import { Banner2 } from "./components/Banner2";
 import { Banner3 } from "./components/Banner3";
 import { TDK } from "./components/tdk";
@@ -25,7 +27,7 @@ function App() {
       <Banner2 />
       {/* <Contact /> */}
       <History/>
-      <Oldprojects/>
+      {/* <Oldprojects/> */}
       <Banner3 />
       <Footer />
     </div>

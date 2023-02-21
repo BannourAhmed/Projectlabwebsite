@@ -61,11 +61,12 @@ export const NavBar = () => {
 
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Information</Nav.Link>
-              <Nav.Link href="#schedule" className={activeLink === 'schedule' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('schedule')}>Schedule</Nav.Link>   
            <Nav.Link href="#schedule" className={activeLink === 'schedule' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('schedule')}>Deliverables</Nav.Link>
 
-              <Nav.Link href="#grading" className={activeLink === 'grading' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Grading</Nav.Link>
+              {/* <Nav.Link href="#grading" className={activeLink === 'grading' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Grading</Nav.Link> */}
               <Nav.Link href="#scientific" className={activeLink === 'scientific' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Tips</Nav.Link>
+              <Nav.Link href="#history" className={activeLink === 'history' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('history')}>History</Nav.Link>   
+
               <Nav.Link href="#Available" className={activeLink === 'Available' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Available')}>Projects</Nav.Link>
 
               {/* <Nav.Link href="#Previous" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Previous Projects</Nav.Link> */}

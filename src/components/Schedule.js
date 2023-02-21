@@ -78,20 +78,22 @@ export const Schedule = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
              
 
-<h2>Schedule and deliverables</h2>
+<h2>Deliverables</h2>
 
 <h3> Documentation </h3>
 <h6>A high-quality final technical report created in Latex using a  <a href="https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/" >double-column IEEE template</a>.  
  The paper should follow the structure of original research papers.
 Required length: 6-7 double-column pages (for teams of 2 students)
-9-10 double-column pages (for teams of 3 students).</h6><h6>• 
+9-10 double-column pages (for teams of 3 students).</h6>
+<ul><h6>• 
 The above length should include figures and refences and must be self-contained.</h6><h6> 
 • It is possible two add a max 10-page-long supplementary material with additional tables,
 figures, or methodological details that can be referenced in the main text.
-The paper must be written in English.</h6>
+The paper must be written in English.</h6></ul>
 <h3> Presentation</h3>
 <h6>Students present their work at a conference-like event. They are encouraged to comment on their
 peers’ work and ask questions.</h6> 
+<ul>
 <h6>• The presentation must follow the structure and standards of research
 presentations.</h6>
 
@@ -100,9 +102,10 @@ work.</h6>
 <h6>• The presentations must be aided by a slideshow (or similar)</h6>
 <h6>• The presentations will be followed by a short discussion.</h6>
 <h6>• The presentations can be held in English or Hungarian.</h6>
-<h6>• Snacks and treats will be provided.</h6>
+<h6>• Snacks and treats will be provided.</h6></ul>
 
                 
+          <h2>Schedule</h2>
                 <div >
             
         <Chrono items={items} mode="VERTICAL_ALTERNATING"    

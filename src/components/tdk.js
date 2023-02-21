@@ -3,6 +3,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import ShowMoreText from "react-show-more-text";
 
 
 export const TDK = () => {
@@ -20,10 +21,9 @@ export const TDK = () => {
                 <h2>Project Laboratory vs Master’s thesis vs TDK</h2>
                 
                 <h6>Project Laboratory is similar to a master’s thesis project, but it has some major differences:
-
-
-
 </h6>
+<ul>
+
 <h6>• Project Laboratory is a team project, while the master’s thesis must be individual work.</h6>
 <h6>• Here the research question comes from outside of mathematics (but the solution requires
 advanced mathematical tools), however, the master’s thesis frequently solves an intrinsically
@@ -32,7 +32,7 @@ motivated problem in mathematics</h6>
 structured in a more research article-like way, with a focus on the original results.</h6>
 <h6>• Because of the above differences (in particular the team vs. individual nature), we strongly
 recommend a clear distinction is made between the master’s thesis and the project
-laboratory. Overlap is only possible in special cases and with special permission.</h6>
+laboratory. Overlap is only possible in special cases and with special permission.</h6></ul>
 <h6>However, students are strongly encouraged to submit a TDK (=Students' Scientific Conference) paper on the topic of the project laboratory. </h6>
 
 

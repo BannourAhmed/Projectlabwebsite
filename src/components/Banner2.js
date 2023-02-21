@@ -94,13 +94,14 @@ export const Banner2 = () => {
     <section className="banner2" id="scientific">
       <Container>
         <Row className="aligh-items-center">
+          
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                <span className="tagline">TIPS</span>
+                <h2>Tips</h2>
                 
-                <ShowMoreText>
+              
                  
                   <p>A central goal of the course is to familiarize students with writing effective, journal-style research
 papers. Papers are a key way in which scientists share research findings and learn about others’
@@ -112,25 +113,16 @@ the reading experience may be like for someone new to that research.
 
                   </p>
                  
-                  </ShowMoreText>
-                  <h1></h1>
-                  <h3>Various resources are provided to help students learn effective scientific writing:</h3>
-                  <h1></h1>
-      {/* <thead>
-        <tr>
-          <th><h2>#</h2></th>
-          <th><h2>Source</h2></th>
-          
-          
-        </tr>
-      </thead> */}
-      {/* <tbody> */}
-        {/* <tr> */}
-        </div>
+                 
+                <br/>
+                
+                  </div>
             }
-              
+           
             </TrackVisibility>
           </Col>
+ 
+         
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
@@ -139,42 +131,41 @@ the reading experience may be like for someone new to that research.
                 </div>}
             </TrackVisibility>
           </Col>
-        <h7>1 •  <a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185901"> Organizing Academic Research Papers</a></h7>
-          
-          
+          <h3>Various resources are provided to help students learn effective scientific writing:</h3>
+        <ul>
+          <li>  <h7>  <a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185901"> Organizing Academic Research Papers</a></h7>
+          </li>
+   
        <br/>
-      
-       
-        <h7>2 •  
-        <a href="https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1">  10 Simple Steps to Writing a Scientific Paper</a></h7>
-        <br/>
+      <li>
+        <h7> 
+         <a href="https://spie.org/news/photonics-focus/janfeb-2020/how-to-write-a-scientific-paper?SSO=1">  10 Simple Steps to Writing a Scientific Paper</a></h7>
+        </li>
+<br/>
+ <li>
+        <h7>
+       <a href="https://www.elsevier.com/connect/11-steps-to-structuring-a-science-paper-editors-will-take-seriously"> 11 steps to structuring a science paper editors will take seriously</a></h7>
+        </li>
+ <br/>
 
-        <h7>3 • 
-        <a href="https://www.elsevier.com/connect/11-steps-to-structuring-a-science-paper-editors-will-take-seriously"> 11 steps to structuring a science paper editors will take seriously</a></h7>
-        <br/>
-
-        <h7>4 • 
-        <a href="https://jgscott.github.io/teaching/writeups/write_ups/"> Data analysis write-ups</a></h7>
-        <br/>
-
-        <h7>5 • 
+        <li> <h7>
+       <a href="https://jgscott.github.io/teaching/writeups/write_ups/"> Data analysis write-ups</a></h7>
+        </li>
+ <br/>
+ <li>
+        <h7>
         <a href="https://www.grammarly.com/blog/how-to-write-a-research-paper/"> The Ultimate Guide to Writing a Research Paper</a></h7>
+        </li>
+<br/>
+  <li>
+        <h7>
+       <a href="https://nnkt.ueh.edu.vn/wp-content/uploads/2019/06/Academiv-Phrase-Bank.pdf"> Academic Phrase Bank</a></h7>         
+    </li>
         <br/>
-
-        <h7>6 • 
-        <a href="https://nnkt.ueh.edu.vn/wp-content/uploads/2019/06/Academiv-Phrase-Bank.pdf"> Academic Phrase Bank</a></h7>         
-       
-       
-     
-          
-       
-       
-      
-      
-        
+        </ul>
       {/* </tbody> */}
    
-    <h2> For collaborative writing, you are very much encouraged to use <a href="https://www.overleaf.com/">Overleaf</a>.</h2>
+    <h3> For collaborative writing, you are very much encouraged to use <a href="https://www.overleaf.com/">Overleaf</a>.</h3>
     
                  
           
@@ -197,36 +188,31 @@ the reading experience may be like for someone new to that research.
 being scientifically accurate and informative.</p>
 <h3>Here you can find some useful resources that can guide you in delivering a well-structured and
 engaging research presentation:</h3>
-<Table striped bordered hover>
-      <thead>
-        <tr>
-          <th><h2>#</h2></th>
-          <th><h2>Source</h2></th>
-          
-          
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-        <th><h2>1</h2></th>
-          <td><a href="https://www.unomaha.edu/college-of-information-science-and-technology/_files/docs/round-tables/tips-for-academic-presentations-mdavidson.pdf"><h5>Tips for Presenting Your Research at Conferences</h5></a></td>
-          
-          
-        </tr>
-        <tr>
-        <th><h2>2</h2></th>
-        <td><a href="https://www.sfu.ca/~jeffpell/Ling480/ParberryMembrane.pdf"><h5>How to Present a Paper: A Speaker’s Guide</h5></a></td>
+
+    
+
+       
+      <li><h7> <a href="https://www.unomaha.edu/college-of-information-science-and-technology/_files/docs/round-tables/tips-for-academic-presentations-mdavidson.pdf">Tips for Presenting Your Research at Conferences</a></h7>
+ 
+      </li>
+      <br/>
+        
+  
+      <li> <h7> <a href="https://www.sfu.ca/~jeffpell/Ling480/ParberryMembrane.pdf">How to Present a Paper: A Speaker’s Guide</a></h7>
          
-        </tr>
-        <tr>
-        <th><h2>3</h2></th>
-        <td><a href="https://www.wikihow.com/Prepare-a-Paper-Presentation"><h5>How to Prepare a Paper Presentation</h5></a></td>
-          
-        </tr>
+         </li>
+         <br/>
+       
+       
+         <li> <h7> <a href="https://www.wikihow.com/Prepare-a-Paper-Presentation">How to Prepare a Paper Presentation</a> </h7>
+     
+         </li>
+         <br/>
+      
       
         
-      </tbody>
-    </Table>
+    
+   
 
                   {/* <button onClick={handleClickScroll}>More information <ArrowRightCircle size={25} /></button> */}
               </div>
@@ -252,63 +238,59 @@ engaging research presentation:</h3>
               <div className={isVisible ? "" : ""}>
                 <span className="tagline">TEAMWORK</span>
                 {/* <h2>{`By the end of the semester, the student will:`} </h2> */}
-                  <ShowMoreText>
+                  <ShowMoreText className="showmore" lines={1}>
                   <p>Researchers (both in academia and industry) constantly collaborate with each other, so the course is
-structured to give students a taste of not only research but also research collaboration.
+structured to give students a taste of not only research but also research collaboration.<p>
 Each team works differently. Often, each student takes on a different part of the work. For example,
 one student may enjoy reviewing the literature or developing a theory while another plays with the
 data or creates a computer simulation. We support this technique since it mimics the productive
-teamwork of professional researchers.
-Favorably, students can do more as a group than they might on their own. To get over obstacles,
+teamwork of professional researchers.</p>
+<p>Favorably, students can do more as a group than they might on their own. To get over obstacles,
 they can support one another, learn from one another, attempt a variety of strategies, and rely on
 one another&#39;s complementing abilities and interests. They can inspire one another and share ideas.
 Because writers are frequently too close to their own work to recognize errors, teammates can
-provide each other with useful critiques.
+provide each other with useful critiques.</p>
 Teamwork can be difficult! We genuinely want students to struggle a little with teamwork, make
 deliberate choices about how to deal with their problems, and through that process, become better
-prepared for teamwork in the future.
+prepared for teamwork in the future.<p>
 All team members are required to contribute equally. In exceptional cases, if a conflict is reported to
-the responsible instructor, the team might be broken apart.
+the responsible instructor, the team might be broken apart.</p>
 Focusing on the team&#39;s project is likely the most useful tactic when there are problems with
 teamwork. Focusing on the objective can frequently make the teamwork issue appear less
 significant.</p></ShowMoreText>
-
+<br/>
              <h3>Some pieces of advice for managing a team project:</h3>
-             <Table striped bordered hover>
-      <thead>
-        <tr>
-          <th><h2>#</h2></th>
-          <th><h2>Source</h2></th>
-          
-          
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-        <th><h2>1</h2></th>
-          <td><a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185948"><h5>Organizing Academic Research Papers: How to Manage Group Projects</h5></a></td>
-          
-          
-        </tr>
-        <tr>
-        <th><h2>2</h2></th>
-        <td><a href="https://www.prospects.ac.uk/applying-for-university/university-life/3-tips-for-successful-group-work"><h5>3 tips for successful group work</h5></a></td>
-         
-        </tr>
-        <tr>
-        <th><h2>3</h2></th>
-        <td><a href="https://www.herzing.edu/blog/5-tips-working-group-projects"><h5>5 Tips for Working on Group Projects</h5></a></td>
-          
-        </tr>
-        <tr>
-        <th><h2>4</h2></th>
-        <td><a href="https://www.saintleo.edu/about/stories/blog/7-tips-to-more-effectively-work-on-group-projects"><h5>7 Tips to More Effectively Work on Group Projects</h5></a></td>
-          
-        </tr>
+           
+   
+   
+    
+       
+            <li> <h7><a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185948">Organizing Academic Research Papers: How to Manage Group Projects</a></h7>
+          </li>
+          <br/>
+    
+   
+ 
+          <li><h7> <a href="https://www.prospects.ac.uk/applying-for-university/university-life/3-tips-for-successful-group-work">3 tips for successful group work</a></h7>
+          </li>
+     
+             <br/>
+
+       
+             <li><h7><a href="https://www.herzing.edu/blog/5-tips-working-group-projects">5 Tips for Working on Group Projects</a></h7>
+             </li>
+             <br/>
+
+   
+     
+             <li> <h7> <a href="https://www.saintleo.edu/about/stories/blog/7-tips-to-more-effectively-work-on-group-projects">7 Tips to More Effectively Work on Group Projects</a></h7>
+             </li>
+             <br/>
+
       
-        
-      </tbody>
-    </Table>
+           
+
+   
         
                   {/* <button onClick={handleClickScroll}>More information <ArrowRightCircle size={25} /></button> */}
               </div>
