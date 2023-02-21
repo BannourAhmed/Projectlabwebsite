@@ -100,9 +100,7 @@ export const Banner2 = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
                 <h2>Tips</h2>
-                
-              
-                 
+
                   <p>A central goal of the course is to familiarize students with writing effective, journal-style research
 papers. Papers are a key way in which scientists share research findings and learn about others’
 work.
