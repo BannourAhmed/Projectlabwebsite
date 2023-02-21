@@ -24,15 +24,15 @@ export const TDK = () => {
 </h6>
 <ul>
 
-<h6>• Project Laboratory is a team project, while the master’s thesis must be individual work.</h6>
-<h6>• Here the research question comes from outside of mathematics (but the solution requires
+<li><h6>Project Laboratory is a team project, while the master’s thesis must be individual work.</h6></li>
+<li><h6>Here the research question comes from outside of mathematics (but the solution requires
 advanced mathematical tools), however, the master’s thesis frequently solves an intrinsically
-motivated problem in mathematics</h6>
-<h6>• Here the paper must be a lot shorter than the length of a master’s thesis. This paper is
-structured in a more research article-like way, with a focus on the original results.</h6>
-<h6>• Because of the above differences (in particular the team vs. individual nature), we strongly
+motivated problem in mathematics</h6></li>
+<li><h6>Here the paper must be a lot shorter than the length of a master’s thesis. This paper is
+structured in a more research article-like way, with a focus on the original results.</h6></li>
+<li><h6>Because of the above differences (in particular the team vs. individual nature), we strongly
 recommend a clear distinction is made between the master’s thesis and the project
-laboratory. Overlap is only possible in special cases and with special permission.</h6></ul>
+laboratory. Overlap is only possible in special cases and with special permission.</h6></li></ul>
 <h6>However, students are strongly encouraged to submit a TDK (=Students' Scientific Conference) paper on the topic of the project laboratory. </h6>
 
 

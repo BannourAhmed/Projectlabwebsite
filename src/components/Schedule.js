@@ -85,24 +85,27 @@ export const Schedule = () => {
  The paper should follow the structure of original research papers.
 Required length: 6-7 double-column pages (for teams of 2 students)
 9-10 double-column pages (for teams of 3 students).</h6>
-<ul><h6>• 
-The above length should include figures and refences and must be self-contained.</h6><h6> 
-• It is possible two add a max 10-page-long supplementary material with additional tables,
+<ul>
+  <li><h6>The above length should include figures and refences and must be self-contained.</h6></li>
+  <li><h6> It is possible two add a max 10-page-long supplementary material with additional tables,
 figures, or methodological details that can be referenced in the main text.
-The paper must be written in English.</h6></ul>
+The paper must be written in English.</h6></li></ul>
 <h3> Presentation</h3>
 <h6>Students present their work at a conference-like event. They are encouraged to comment on their
 peers’ work and ask questions.</h6> 
 <ul>
-<h6>• The presentation must follow the structure and standards of research
-presentations.</h6>
 
-<h6>• Teams of 2 students have 25 minutes, while teams of 3 students have 35 minutes to present their
-work.</h6>
-<h6>• The presentations must be aided by a slideshow (or similar)</h6>
-<h6>• The presentations will be followed by a short discussion.</h6>
-<h6>• The presentations can be held in English or Hungarian.</h6>
-<h6>• Snacks and treats will be provided.</h6></ul>
+<li><h6>The presentation must follow the structure and standards of research
+presentations.</h6></li>
+
+<li><h6>Teams of 2 students have 25 minutes, while teams of 3 students have 35 minutes to present their
+work.</h6></li>
+<li><h6>The presentations must be aided by a slideshow (or similar)</h6></li>
+<li><h6>The presentations will be followed by a short discussion.</h6></li>
+<li><h6>The presentations can be held in English or Hungarian.</h6></li>
+<li><h6>Snacks and treats will be provided.</h6></li>
+
+</ul>
 
                 
           <h2>Schedule</h2>
@@ -128,7 +131,7 @@ work.</h6>
 preferences using the online form found on the course page.</p>
 <p>
 • Participation in the workshop is compulsory for those students who are taking Project
-Laboratory 1 </p><p>- Here the course requirements and deliverables are presented, the project proposals are
+Laboratory 1 </p><p>• Here the course requirements and deliverables are presented, the project proposals are
 briefly introduced, and the final student-project assignment takes place in the workshop.</p>
 
 <p>• After the workshop, the responsible instructor connects the students with their supervisor.</p></ShowMoreText></div>
