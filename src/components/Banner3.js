@@ -471,7 +471,7 @@ The aim of the project is to identify the brand strategy success factors that bu
   </li><li>Jenders, M., Kasneci, G., & Naumann, F. (2013, May). Analyzing and predicting viral tweets. In Proceedings of the 22nd international conference on world wide web (pp. 657-664).</li>
   <li>Barnes, K., Riesenmy, T., Trinh, M. D., Lleshi, E., Balogh, N., & Molontay, R. (2021). Dank or not? Analyzing and predicting the popularity of memes on Reddit. Applied Network Science, 6(1), 1-24.</li>
   <li>Aaker, D. A. (2011). Building strong brands. Free Press.</li>
-  <li>Kotler, P., Armstrong, G. (2016): Principles of Marketing. 16th Edition, Pearson</li>
+  <li>Kotler, P., Armstrong, G. (2016): Principles of Marketing. 16th Edition, Pearson.</li>
 </ul> </div>
   </ShowMoreText>   
             </Card.Body>
