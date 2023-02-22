@@ -22,11 +22,12 @@ export const Footer = () => {
            <a href="https://hsdslab.math.bme.hu/en.html/"><img src={logo1} alt="Logo" /></a>
             
           </Col>
-         
           <Col size={12} sm={6} className="text-center text-sm-end">
-            
+
             <p>HSDSLab © {(new Date().getFullYear())} All rights reserved</p>
             {/* <p>BME mathematics</p> */}
+            <h10>First website by Ahmed Bannour et douha :)</h10>
+
           </Col>
         </Row>
       </Container>
