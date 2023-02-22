@@ -46,9 +46,9 @@ export const History = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated " : ""}>
-                  <img src={imghistory} alt="Header Img"/>
+                   <a href="https://math.bme.hu/~lazi/"><img src={imghistory} alt="Header Img"/></a>
                   <br/>
-                  <a><h5>Instructor: Dr. Márta Lázi</h5></a>
+                  <a href="https://math.bme.hu/~lazi/"><h5>Instructor: Dr. Márta Lázi</h5></a>
 
                 </div>}
             </TrackVisibility>

@@ -34,9 +34,7 @@ export const Grading = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="">
-                        <h2>Grading</h2>
-                        <div className="p1">
+                <div className="p1">
                         <p>Your team should contact your supervisor every other week or so, perhaps just by email, to report
 your progress. It is wise to type up your work as you do it. This will help you when you have to write
 reports, including your final report. In addition, it gives you something to show your supervisor and
@@ -47,6 +45,9 @@ deliverables in mind throughout the project.</p>
 find it very difficult to manage the workload among your team members, please inform the
 responsible instructor immediately.</p>
 </div>
+                    <div className="">
+                        <h2>Grading</h2>
+                        <div className="p1"> <p>The final mark is determined jointly by the supervisor and responsible instructor based on the project documentation and the presentation.</p></div>
 
 
 

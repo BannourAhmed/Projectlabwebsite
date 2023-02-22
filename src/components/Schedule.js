@@ -12,20 +12,20 @@ import { Chrono } from "react-chrono";
 export const Schedule = () => {
 
   let  items = [{
-    title: "REGISTRATION WEEK", "color":"red"
+    title: "Registration week - Posting project proposals", "color":"red"
    
   }, 
   {
-    title : "1st WEEK (in-person)" 
+    title : "Week 1 - In-person workshop" 
   },
   {
-    title: "Week 3 Research plan",
+    title: "Week 3 - Research proposal submission",
    
   },{
-    title: "Week 10 (online)",
+    title: "Week 10 - Online workshop",
    
   },{
-    title: "Week 2 of the exam period",
+    title: "Week 2 of the exam period - Documentation submission",
    
   },{
     title: "Week 3 of the exam period",
@@ -82,7 +82,7 @@ export const Schedule = () => {
 
 <h3> Documentation </h3>
 <h6>A high-quality final technical report created in Latex using a  <a href="https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/" >double-column IEEE template</a>.  
- The paper should follow the structure of original research papers.
+ The paper should follow the <a href="#scientific">structure of original research papers.</a>
 Required length: 6-7 double-column pages (for teams of 2 students)
 9-10 double-column pages (for teams of 3 students).</h6>
 <ul>
@@ -95,7 +95,7 @@ The paper must be written in English.</h6></li></ul>
 peers’ work and ask questions.</h6> 
 <ul>
 
-<li><h6>The presentation must follow the structure and standards of research
+<li><h6>The presentation must follow the <a href="#scientificpresentation">structure</a> and standards of research
 presentations.</h6></li>
 
 <li><h6>Teams of 2 students have 25 minutes, while teams of 3 students have 35 minutes to present their
@@ -127,18 +127,18 @@ work.</h6></li>
   </div>
 
 
-  <div><ShowMoreText lines={1}> <p>• Before the workshop, you must submit your project preferences and indicate group
+  <div><ShowMoreText className="showmore" lines={1}> <p>• Before the workshop, you must submit your project preferences and indicate group
 preferences using the online form found on the course page.</p>
 <p>
 • Participation in the workshop is compulsory for those students who are taking Project
 Laboratory 1 </p><p>• Here the course requirements and deliverables are presented, the project proposals are
 briefly introduced, and the final student-project assignment takes place in the workshop.</p>
 
-<p>• After the workshop, the responsible instructor connects the students with their supervisor.</p></ShowMoreText></div>
+<p>• After the workshop, the responsible instructor connects the students with their supervisor.</p></ShowMoreText ></div>
 
 
 
-  <div><ShowMoreText lines={1}><p>• By the end of Week 3, teams should submit a research plan (after obtaining agreement from
+  <div><ShowMoreText className="showmore" lines={1}><p>• By the end of Week 3, teams should submit a research plan (after obtaining agreement from
 the supervisor).</p>
 <p>• The research plan is an initial written report covering the background, specifications, and
 milestones for your project. This is an unassessed 1-2 page compulsory submission giving the
@@ -270,12 +270,14 @@ work.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>*/}
+
               </div>} 
+              
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+ 
     </section>
   )
 }

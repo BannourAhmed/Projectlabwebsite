@@ -93,13 +93,17 @@ export const Banner2 = () => {
   return (
     <section className="banner2" id="scientific">
       <Container>
+      <h2>Tips</h2>
+      <br/>
         <Row className="aligh-items-center">
           
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                <h2>Tips</h2>
+                                <span className="tagline">Academic writing</span>
+
+               <p></p>
 
                   <p>A central goal of the course is to familiarize students with writing effective, journal-style research
 papers. Papers are a key way in which scientists share research findings and learn about others’
@@ -179,7 +183,7 @@ the reading experience may be like for someone new to that research.
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                <span className="tagline">SCIENTIFIC PRESENTATION</span>
+                <span className="tagline" id="scientificpresentation">Scientific presentation</span>
                 {/* <h2>{`By the end of the semester, the student will:`} </h2> */}
                   
                   <p>Effective presentations provide motivation, communicate results, and stimulate interest, all while
@@ -234,9 +238,10 @@ engaging research presentation:</h3>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                <span className="tagline">TEAMWORK</span>
+                <span className="tagline">Teamwork</span>
                 {/* <h2>{`By the end of the semester, the student will:`} </h2> */}
                   <ShowMoreText className="showmore" lines={1}>
+                  
                   <p>Researchers (both in academia and industry) constantly collaborate with each other, so the course is
 structured to give students a taste of not only research but also research collaboration.<p>
 Each team works differently. Often, each student takes on a different part of the work. For example,

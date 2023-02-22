@@ -105,7 +105,7 @@ of the course, or someone appointed by the responsible instructor.
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated " : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <a href="https://math.bme.hu/~molontay/eng.html"><img src={headerImg} alt="Header Img"/></a>
                   <a href="https://math.bme.hu/~molontay/eng.html"><h5>Instructor: Dr Roland Molontay</h5></a>
                   {/* <a href="https://math.bme.hu/~molontay/eng.html"><img src={headertext} alt="Header text"/></a> */}
 
@@ -135,39 +135,38 @@ of the course, or someone appointed by the responsible instructor.
                 <h2>Aims & Objectives</h2>
                 <h3>{`By the end of the semester, the student will:`} </h3>
                
-               <ul> <ShowMoreText className="showmore" lines={1}>
+               <ul> 
                   <li><h6>Know the current research problems in some of the major areas in applied
 mathematics/computer science/physics/engineering/economics/life sciences/quantitative
 social science.</h6></li>
-<li><h6>carry out research to deepen their knowledge and develop their skills regarding an area in
+<li><h6>Carry out research to deepen their knowledge and develop their skills regarding an area in which they have a special interest.
 </h6></li>
-<li><h6>which they have a special interest.
+<ShowMoreText className="showmore" lines={1}>
+<li><h6>Know how to search the literature for articles on a specific topic.
 </h6></li>
-<li><h6>know how to search the literature for articles on a specific topic.
+<li><h6>Gain a perspective on research in quantitative sciences.
 </h6></li>
-<li><h6>gain a perspective on research in quantitative sciences.
+<li><h6>Learn how to identify a research problem or research question.
 </h6></li>
-<li><h6>learn how to identify a research problem or research question.
+<li><h6>Know the format of technical papers.
 </h6></li>
-<li><h6>know the format of technical papers.
+<li><h6>Read and understand research articles.
 </h6></li>
-<li><h6>read and understand research articles.
-</h6></li>
-<li><h6>learn about references and research ethics.
+<li><h6>Learn about references and research ethics.
 </h6> </li>      
-<li> <h6>understand how to work with primary sources, and how to collect and work with data.
+<li> <h6>Understand how to work with primary sources, and how to collect and work with data.
 </h6></li>
-<li><h6>implement mathematical methods in a programming language of the student’s choice.
+<li><h6>Implement mathematical methods in a programming language of the student’s choice.
 </h6></li>
-<li><h6>write and present technical papers.
+<li><h6>Write and present technical papers.
 </h6></li>
-<li><h6>understand the process of starting, working on, writing, and presenting original research.
+<li><h6>Understand the process of starting, working on, writing, and presenting original research.
 </h6></li>
-<li><h6>develop skills regarding project management.
+<li><h6>Develop skills regarding project management.
 </h6></li>
-<li><h6>gain experience in how to organize a team project and work with peers.
+<li><h6>Gain experience in how to organize a team project and work with peers.
 </h6></li>
-<li><h6>gain experience in how to work with experts outside of mathematics.
+<li><h6>Gain experience in how to work with experts outside of mathematics.
 </h6></li>
 <li><h6>(As each project is unique, specific modes of teaching and learning will respond to the nature
 and scope of the project.)</h6></li></ShowMoreText></ul>
