@@ -781,7 +781,7 @@ background-position: center center;
 }
 
 .banner3 .CARD2{
-  min-height: 700px;
+  min-height: 600px;
 /* height: max-content; */
 width: auto;
 }
@@ -827,6 +827,11 @@ font-weight: 300;}
  .banner3 h8 {
   line-height: 1em;
   font-size: 16px;
+  
+ }
+ .banner3 h9 {
+  font-style: italic;
+  
  }
 
 
@@ -856,12 +861,15 @@ font-weight: 300;}
 .banner3 button:hover svg {
   margin-left: 25px;
 }
+
 .banner3 .img2 {
-  width: 80px;
+  width: 100px;
+  height: auto;
   padding: 0px ;
   margin-right: 10px;
   
 }
+
 
 .banner3 .ct1{
 text-align: left;

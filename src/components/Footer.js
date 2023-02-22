@@ -15,11 +15,11 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-        <a href="https://www.bme.hu/"><img src={logo} alt="Logo" /></a>
-          <a href="https://math.bme.hu/"><img src={logo2} alt="Logo" /></a>
+        <a href="https://www.bme.hu/?language=en"><img src={logo} alt="Logo" /></a>
+          <a href="https://math.bme.hu/?language=en"><img src={logo2} alt="Logo" /></a>
 
            
-           <a href="https://hsdslab.math.bme.hu/"><img src={logo1} alt="Logo" /></a>
+           <a href="https://hsdslab.math.bme.hu/en.html/"><img src={logo1} alt="Logo" /></a>
             
           </Col>
          

@@ -91,7 +91,7 @@ export const Banner2 = () => {
   };
 
   return (
-    <section className="banner2" id="scientific">
+    <section className="banner2" id="tips">
       <Container>
       <h2>Tips</h2>
       <br/>
@@ -134,7 +134,8 @@ the reading experience may be like for someone new to that research.
             </TrackVisibility>
           </Col>
           <h3>Various resources are provided to help students learn effective scientific writing:</h3>
-        <ul>
+          <br/>
+        <ul><ul style={{listStyleType: "disc"}}>
           <li>  <h7>  <a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185901"> Organizing Academic Research Papers</a></h7>
           </li>
    
@@ -164,7 +165,7 @@ the reading experience may be like for someone new to that research.
        <a href="https://nnkt.ueh.edu.vn/wp-content/uploads/2019/06/Academiv-Phrase-Bank.pdf"> Academic Phrase Bank</a></h7>         
     </li>
         <br/>
-        </ul>
+        </ul> </ul>
       {/* </tbody> */}
    
     <h3> For collaborative writing, you are very much encouraged to use <a href="https://www.overleaf.com/">Overleaf</a>.</h3>
@@ -193,7 +194,7 @@ engaging research presentation:</h3>
 
     
 
-       
+   <ul>  
       <li><h7> <a href="https://www.unomaha.edu/college-of-information-science-and-technology/_files/docs/round-tables/tips-for-academic-presentations-mdavidson.pdf">Tips for Presenting Your Research at Conferences</a></h7>
  
       </li>
@@ -208,7 +209,7 @@ engaging research presentation:</h3>
        
          <li> <h7> <a href="https://www.wikihow.com/Prepare-a-Paper-Presentation">How to Prepare a Paper Presentation</a> </h7>
      
-         </li>
+         </li></ul>    
          <br/>
       
       
@@ -229,7 +230,7 @@ engaging research presentation:</h3>
                   <img src={headerImg2} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
-          </Col>
+          </Col>  
         </Row>
       </Container>
       <Container>
@@ -266,7 +267,7 @@ significant.</p></ShowMoreText>
            
    
    
-    
+             <ul>    
        
             <li> <h7><a href="https://library.sacredheart.edu/c.php?g=29803&amp;p=185948">Organizing Academic Research Papers: How to Manage Group Projects</a></h7>
           </li>
@@ -288,6 +289,7 @@ significant.</p></ShowMoreText>
      
              <li> <h7> <a href="https://www.saintleo.edu/about/stories/blog/7-tips-to-more-effectively-work-on-group-projects">7 Tips to More Effectively Work on Group Projects</a></h7>
              </li>
+             </ul>    
              <br/>
 
       

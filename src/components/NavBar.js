@@ -39,16 +39,16 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="https://www.bme.hu/">
+          <Navbar.Brand href="https://www.bme.hu/?language=en">
             <img src={logo} alt="BME" />
             
           </Navbar.Brand>
 
-           <Navbar.Brand href="https://math.bme.hu/">
+           <Navbar.Brand href="https://math.bme.hu/?language=en">
           <img src={logo2} alt="BMEMATH" />
           </Navbar.Brand>
 
-          <Navbar.Brand href="https://hsdslab.math.bme.hu/">
+          <Navbar.Brand href="https://hsdslab.math.bme.hu/en.html/">
           <img src={logo1} alt="HSDSLAB" />
           </Navbar.Brand>
          
@@ -60,14 +60,14 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Information</Nav.Link>
-           <Nav.Link href="#schedule" className={activeLink === 'schedule' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('schedule')}>Deliverables</Nav.Link>
+              <Nav.Link href="#information" className={activeLink === 'information' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('information')}>Information</Nav.Link>
+           <Nav.Link href="#deliverables" className={activeLink === 'deliverables' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('deliverables')}>Deliverables</Nav.Link>
 
               {/* <Nav.Link href="#grading" className={activeLink === 'grading' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Grading</Nav.Link> */}
-              <Nav.Link href="#scientific" className={activeLink === 'scientific' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Tips</Nav.Link>
+              <Nav.Link href="#tips" className={activeLink === 'tips' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tips')}>Tips</Nav.Link>
               <Nav.Link href="#history" className={activeLink === 'history' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('history')}>History</Nav.Link>   
 
-              <Nav.Link href="#Available" className={activeLink === 'Available' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Available')}>Projects</Nav.Link>
+              <Nav.Link href="#available" className={activeLink === 'available' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('available')}>Projects</Nav.Link>
 
               {/* <Nav.Link href="#Previous" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Previous Projects</Nav.Link> */}
 

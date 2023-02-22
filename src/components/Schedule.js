@@ -69,7 +69,7 @@ export const Schedule = () => {
   // ];
 
   return (
-    <section className="project" id="schedule">
+    <section className="project" id="deliverables">
       <Container>
         <Row>
           <Col size={12}>
@@ -82,7 +82,7 @@ export const Schedule = () => {
 
 <h3> Documentation </h3>
 <h6>A high-quality final technical report created in Latex using a  <a href="https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/authoring-tools-and-templates/tools-for-ieee-authors/ieee-article-templates/" >double-column IEEE template</a>.  
- The paper should follow the <a href="#scientific">structure of original research papers.</a>
+ The paper should follow the <a href="#tips">structure of original research papers.</a>
 Required length: 6-7 double-column pages (for teams of 2 students)
 9-10 double-column pages (for teams of 3 students).</h6>
 <ul>
