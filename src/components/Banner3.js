@@ -419,7 +419,7 @@ Recommended literature:<ul>
             <Card.Body >
               <Card.Text>   <img className="img2" src={projImg21}/> <h7>Dr Mihály Szabó</h7>             
 <br/>
-              <h8>Rector's delegate. <br/>Rector's Office, Directorate of Education, BME</h8>
+              <h8>Rector's delegate <br/>Rector's Office, Directorate of Education, BME</h8>
             
 
               </Card.Text>
@@ -485,7 +485,7 @@ The aim of the project is to identify the brand strategy success factors that bu
             <Card.Body >
               <Card.Text>  <img className="img2" src={projImg8}/> <h7>Dr Attila Kovács</h7>              
 <br/>
-              <h8>Dean.<br/> Budapest Metropolitan University</h8>
+              <h8>Dean<br/> Budapest Metropolitan University</h8>
 
               </Card.Text>
               <ShowMoreText lines={2}>   

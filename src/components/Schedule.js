@@ -95,8 +95,7 @@ The paper must be written in English.</h6></li></ul>
 peers’ work and ask questions.</h6> 
 <ul>
 
-<li><h6>The presentation must follow the <a href="#scientificpresentation">structure</a> and standards of research
-presentations.</h6></li>
+<li><h6>The presentation must follow the <a href="#scientificpresentation">structure and standards of research presentations</a>.</h6></li>
 
 <li><h6>Teams of 2 students have 25 minutes, while teams of 3 students have 35 minutes to present their
 work.</h6></li>
