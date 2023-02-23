@@ -17,7 +17,7 @@ export const TDK = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className={isVisible ? "": ""}>
                 <h2>Project Laboratory vs Master’s thesis vs TDK</h2>
                 
                 <h6>Project Laboratory is similar to a master’s thesis project, but it has some major differences:

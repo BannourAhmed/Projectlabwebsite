@@ -48,7 +48,7 @@ export const NavBar = () => {
           <img src={logo2} alt="BMEMATH" />
           </Navbar.Brand>
 
-          <Navbar.Brand href="https://hsdslab.math.bme.hu/en.html/">
+          <Navbar.Brand href="https://hsdslab.math.bme.hu/en">
           <img src={logo1} alt="HSDSLAB" />
           </Navbar.Brand>
          

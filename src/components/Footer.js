@@ -19,12 +19,12 @@ export const Footer = () => {
           <a href="https://math.bme.hu/?language=en"><img src={logo2} alt="Logo" /></a>
 
            
-           <a href="https://hsdslab.math.bme.hu/en.html/"><img src={logo1} alt="Logo" /></a>
+           <a href="https://hsdslab.math.bme.hu/en"><img src={logo1} alt="Logo" /></a>
             
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
 
-            <p>HSDSLab © {(new Date().getFullYear())} All rights reserved<h10 className="unselectable" >First website by Ahmed Bannour et douha :)</h10></p>
+            <p>HSDSLab © {(new Date().getFullYear())} All rights reserved<h10 className="unselectable" >First website made by Ahmed Bannour et douha :)</h10></p>
             {/* <p>BME mathematics</p> */}
             
 

@@ -875,13 +875,26 @@ font-weight: 300;}
 }
 
 .banner3 .img2 {
-  width: 100px;
+  /* flex: 1; */
+  /* resize: 'contain'; */
+  width: auto;
+  max-width: 100px;
   height: auto;
   padding: 0px ;
   margin-right: 10px;
   
 }
 
+@media only screen and (max-width: 900px) {
+  .banner3 .img2 {
+    max-width: 80px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .banner3 .img2 {
+    max-width: 60px;
+  }
+}
 
 .banner3 .ct1{
 text-align: left;
