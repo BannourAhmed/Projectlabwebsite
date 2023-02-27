@@ -1,0 +1,119 @@
+/************ Banner2 Css ************/
+
+.banner2 {
+    margin-top: 0;
+    padding: 100px 0 100px 0; 
+    background-image: url('../../assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner2 .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    text-decoration-thickness: 0.5px;
+    /* background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5); */
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner2 .imgheader {
+    width: 30%;
+  }
+  .banner2 h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .banner2 h7 {
+    font-size: 20px;
+    line-height: 2em;
+    width: 100%;
+    font-weight: 400;
+  }
+  .banner2 .showmore {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  
+  
+  
+  }
+  
+  .banner2 h2 {
+    font-size: 40px;
+      font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;}
+    .banner2 h3 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  .banner2 h4 {
+    color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;}
+  .banner2 p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .banner2 h6 {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  font-weight: 300;}
+  .banner2 a {
+    color:#ffffff
+  }
+  .banner2 a:hover {
+    color:#2C2C2C
+  }
+  .banner2 button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner2 button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner2 button:hover svg {
+    margin-left: 25px;
+  }
+  .banner2 img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(0px);
+      }
+      50% {
+          transform: translateY(0px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }

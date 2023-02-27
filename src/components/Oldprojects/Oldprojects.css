@@ -1,0 +1,107 @@
+/************ OldProjects Css ************/
+
+.OldProjects {
+    margin-top: 0;
+    padding: 260px 0 100px 0; 
+    background-image: url('./assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .OldProjects .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    /* background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5); */
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .OldProjects h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 1;
+  margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 110%;
+  }
+  
+  .OldProjects h2 {
+    color: #ffffff;
+  font-weight: 200;}
+  .OldProjects h4 {
+    color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;}
+  .OldProjects p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 90%;
+  }
+  .OldProjects h6 {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 200%;
+  font-weight: 300;}
+  .OldProjects a {
+    color:#ffffff
+  }
+  .OldProjects a:hover {
+    color:#2C2C2C
+  }
+  .OldProjects button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .OldProjects button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .OldProjects button:hover svg {
+    margin-left: 25px;
+  }
+  .OldProjects img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(0px);
+      }
+      50% {
+          transform: translateY(0px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+  
+  
+  
+  @media only screen and (max-width: 400px){
+    .banner h1{
+      font-size: 20px;
+      white-space: nowrap;
+    }
+    
+  }
+  

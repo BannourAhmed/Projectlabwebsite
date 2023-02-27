@@ -1,0 +1,80 @@
+
+/************ Grading Css ************/
+.grading {
+    padding: 0 0 50px 0;
+    background: linear-gradient(#2C2C2C,#2f6a9b);
+    margin-top: -60px;
+    /* background: #aa5e5e; */
+    position: relative;
+    text-align: center;
+  }
+  /* .grading-bx {
+    background: #aa5e5e;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }   */
+  
+  .grading h1 {
+      margin-top: 60px;
+  }
+  
+  .grading h2 {
+      font-size: 40px;
+    margin-top: 60px;
+      font-weight: 700;
+  }
+  .grading .p1{
+    text-align: left;
+  }
+  .grading p {
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+      font-weight: 200;
+  }
+  .grading-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .grading-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+  }
+  
+  .grading img {
+    width: 50%;
+    /* text-align: center; */
+  }
+  
+  /* .grading .column {
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .skigradingll .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  .grading .row {
+    display: flex;
+    
+  }
+  
+  .grading .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  @media screen and (max-width: 550px)  {
+    .skill .column {
+      width: 100% !important;
+    }
+  }
+  
+  

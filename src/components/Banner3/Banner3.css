@@ -1,0 +1,187 @@
+/************ Banner3 Css ************/
+
+.banner3 {
+    margin-top: 0 px;
+    padding: 100px 0 100px 0; 
+    background: linear-gradient(#2f6a9b, #201e1d);  background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner3 .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    /* text-decoration: underline;
+    text-decoration-thickness: 0.5px; */
+    background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .banner3 h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    line-height: 1;
+    margin-bottom: 80px;
+    display: block;
+    width: 110%;
+  }
+  
+  .banner3 .CARD2{
+    min-height: 600px;
+  /* height: max-content; */
+  width: auto;
+  }
+  .banner3 .Card3{
+    min-height: 600px;
+  /* height: max-content; */
+  /* max-width: 500px; */
+  /* align-items: center; */
+  margin-right: 20px;
+  width: auto;
+  }
+  
+  
+  
+  
+  .banner3 .g-3{
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  padding-top: 40px;
+  /* margin-inline: 1px; */
+  
+  }
+  
+  
+  
+  @media only screen and (max-width: 900px){
+  
+    .banner3 .Card3{
+   
+      width: 100%;
+    }
+  
+  
+  }
+  
+  .banner3 h2 {
+    color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  /* text-decoration: underline; */
+  /* text-decoration-thickness: 2px; */
+  /* text-decoration-color: #3b77e76c; */
+  text-align: center;
+  /* text-underline-offset: 4px; */
+  margin-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  }
+  .banner3 h4 {
+    color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;}
+  .banner3 p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .banner3 h6 {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 200%;
+  font-weight: 300;}
+  
+  .banner3 h7 {
+    line-height: 1em;
+    font-size: 20px;
+   }
+   .banner3 h8 {
+    line-height: 1em;
+    font-size: 16px;
+    
+   }
+   .banner3 h9 {
+    font-style: italic;
+    
+   }
+  
+  
+  .banner3 a {
+    color:#ffffff
+  }
+  
+  
+  .banner3 a:hover {
+    color:#2C2C2C
+  }
+  .banner3 button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner3 button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner3 button:hover svg {
+    margin-left: 25px;
+  }
+  
+  .banner3 .img2 {
+    /* flex: 1; */
+    /* resize: 'contain'; */
+    width: auto;
+    max-width: 100px;
+    height: auto;
+    padding: 0px ;
+    margin-right: 10px;
+    
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .banner3 .img2 {
+      max-width: 80px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .banner3 .img2 {
+      max-width: 60px;
+    }
+  }
+  
+  .banner3 .ct1{
+  text-align: left;
+    width: 100%;
+  }
+  .banner3 img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(0px);
+      }
+      50% {
+          transform: translateY(0px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }

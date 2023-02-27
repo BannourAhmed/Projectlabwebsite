@@ -1,0 +1,106 @@
+/* HISTORYYYYY */
+.history {
+    margin-top: 0;
+    padding: 100px 0 100px 0; 
+    background-image: linear-gradient(rgb(39, 92, 172),rgb(29, 169, 194));
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .history .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    text-decoration: none;
+    text-decoration-thickness: 0.5px;
+    /* background: linear-gradient(90.21deg, #2a8ad8e0 -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: 1px solid rgba(255, 255, 255, 0.5); */
+    font-size: 40px;
+    margin-bottom: 16px;
+    display: inline-block;
+  }
+  .history h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    line-height: 1;
+  margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 110%;
+  }
+  
+  .history h5 {
+    text-align: center;    font-size: 25px;
+        color: #ffffff;
+      font-weight: 200;
+    }
+  .history h2 {
+    color: #ffffff;
+    font-size: 40px;
+      font-weight: 700;
+    margin-bottom: 20px;}
+  
+  .history h10 {
+  font-size: 40px;
+  color: #fcfcfc;
+  font-weight: 400;
+  
+  }
+  
+  .history h4 {
+    color: #ffffff;
+  font-weight: 400;
+  font-size: 40px;}
+  .history p {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  .history a {
+    color:#ffffff;
+    text-decoration: none;
+  
+  }
+  .history h6 {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 200%;
+  font-weight: 300;}
+  .history a {
+    color:#ffffff
+  }
+  .history a:hover {
+    color:#2C2C2C
+  }
+  .history button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .history button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .history button:hover svg {
+    margin-left: 25px;
+  }
+  .history img {
+    margin-bottom: 50px;
+    width: 100%;
+    animation: updown 3s linear infinite;
+  }
+  .history .Container .cont1{
+    width: 50%;
+  }
