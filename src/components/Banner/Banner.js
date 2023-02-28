@@ -68,7 +68,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "" : ""}>
-                                <h1>{`Project Laboratory`} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
+                                <h1>{`Project `} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">Laboratory {text}</span></span></h1>
 
                 <h2>Course Information</h2>
                

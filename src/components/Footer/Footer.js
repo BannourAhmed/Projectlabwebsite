@@ -24,7 +24,7 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
 
-            <p>HSDSLab © {(new Date().getFullYear())} All rights reserved<h10 className="unselectable" >First website made by Ahmed Bannour et douha :)</h10></p>
+            <p>HSDSLab © {(new Date().getFullYear())} All rights reserved<h2 className="unselectable" >First website made by Ahmed Bannour et douha :)</h2></p>
             {/* <p>BME mathematics</p> */}
             
 
